@@ -157,9 +157,11 @@ ul.skill {
   ul.skill li .skill-bar {
     width: 100%;
     height: 4px;
-    background: #2e2828;
+    background: $primaryColor;
     display: block;
     position: relative;
+
+  
   }
   ul.skill li .skill-bar .skill-tip {
     position: absolute;
@@ -172,6 +174,7 @@ ul.skill {
     line-height: 11px;
     background-color: $primaryColor;
     color: #fff;
+    display:none;
   }
   ul.skill li .skill-bar .skill-tip:after {
     content: '';

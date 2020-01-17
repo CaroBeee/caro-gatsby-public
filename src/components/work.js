@@ -17,15 +17,12 @@ class Work extends React.Component {
               <div className="timeline-entry-inner">
                 <div className="timeline-icon"></div>
                 <div className="timeline-label">
-                  JANUAR 2019 - PRESENT
+                  JANUAR 2019 - bis heute
                 </div>
                 <h3 className="company">wldmr_, Spin-Off des wdv</h3>
                 <p className="designation">CREATIVE UI DEVELOPER</p>
                 <p className="description">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Odit maxime laborum sequi, magni earum quo soluta sint velit
-                  numquam, ipsum illum! Nostrum possimus illo architecto
-                  praesentium ut aliquam dolorem.
+                  Innovationsteam von 12 Personen innerhalb des wdv mit dem Schwerpunkt Design Thinking
                 </p>
               </div>
             </article>
@@ -36,12 +33,9 @@ class Work extends React.Component {
                   NOVEMBER 2014 - JANUAR 2019
                 </div>
                 <h3 className="company">wdv</h3>
-                <p className="designation">WEBFRONTEND-ENTWICKLERIN</p>
+                <p className="designation">WEB-FRONTEND ENTWICKLERIN</p>
                 <p className="description">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Odit maxime laborum sequi, magni earum quo soluta sint velit
-                  numquam, ipsum illum! Nostrum possimus illo architecto
-                  praesentium ut aliquam dolorem.
+                  Umsetzung und Weiterentwicklungen von Webseiten
                 </p>
               </div>
             </article>
@@ -49,15 +43,13 @@ class Work extends React.Component {
               <div className="timeline-entry-inner">
                 <div className="timeline-icon"></div>
                 <div className="timeline-label">
-                  JULY'09 - APRIL'11
+                  August 2011 - Juli 2014
                 </div>
-                <h3 className="company">Foursqure Studio</h3>
-                <p className="designation">VISUAL / UI DESIGNER</p>
+                <h3 className="company">CBC - RTL Mediengruppe</h3>
+                <p className="designation">Technische Assistentin</p>
                 <p className="description">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Odit maxime laborum sequi, magni earum quo soluta sint velit
-                  numquam, ipsum illum! Nostrum possimus illo architecto
-                  praesentium ut aliquam dolorem.
+                Qualitätskontrolle für die Mediengruppe Deutschland (RTL, RTL Nitro, VOX, Digitale Sparten)
+Technisch qualitative Prüfung und Abnahme von Sendematerial.
                 </p>
               </div>
             </article>
@@ -71,15 +63,12 @@ class Work extends React.Component {
               <div className="timeline-entry-inner">
                 <div className="timeline-icon"></div>
                 <div className="timeline-label">
-                  JANUARY, 2007
+                  August 2011 - August 2014
                 </div>
-                <h3 className="company">Master Degree Of Design</h3>
-                <p className="designation">UNIVERSITY OF DESIGN</p>
+                <h3 className="company">Master of Science</h3>
+                <p className="designation">Fachhochschule Düsseldorf</p>
                 <p className="description">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Odit maxime laborum sequi, magni earum quo soluta sint velit
-                  numquam, ipsum illum! Nostrum possimus illo architecto
-                  praesentium ut aliquam dolorem.
+                  Masterstudium Medieninformatik
                 </p>
               </div>
             </article>
@@ -87,15 +76,12 @@ class Work extends React.Component {
               <div className="timeline-entry-inner">
                 <div className="timeline-icon"></div>
                 <div className="timeline-label">
-                  JUNE, 2004
+                  September 2006 - Juli 2011
                 </div>
-                <h3 className="company">Bachelor Of Arts</h3>
-                <p className="designation">UNIVERSITY OF DESIGN</p>
+                <h3 className="company">Bachelor Of Engineering</h3>
+                <p className="designation">Fachhochschule Düsseldorf</p>
                 <p className="description">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Odit maxime laborum sequi, magni earum quo soluta sint velit
-                  numquam, ipsum illum! Nostrum possimus illo architecto
-                  praesentium ut aliquam dolorem.
+                  Bachelorstudium Medientechnik
                 </p>
               </div>
             </article>
@@ -103,15 +89,12 @@ class Work extends React.Component {
               <div className="timeline-entry-inner">
                 <div className="timeline-icon"></div>
                 <div className="timeline-label">
-                  JANUARY, 2001
+                 April 2003 - Juni 2006
                 </div>
-                <h3 className="company">Master Degree Of Design</h3>
-                <p className="designation">UNIVERSITY OF DESIGN</p>
+                <h3 className="company">Mediengestaltung für Bild und Ton</h3>
+                <p className="designation">VCC Perfect Pictures</p>
                 <p className="description">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Odit maxime laborum sequi, magni earum quo soluta sint velit
-                  numquam, ipsum illum! Nostrum possimus illo architecto
-                  praesentium ut aliquam dolorem.
+                  Postproduktion für Werbung und Film
                 </p>
               </div>
             </article>
