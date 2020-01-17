@@ -1,0 +1,87 @@
+/* ==========================================================================
+   4. COLORS - colors that controls the major common elements of the template
+========================================================================== */
+//COLOURS
+$primaryColor: #ff4d57;
+$secondaryColor: #fff21e;
+$textColor: #252525;
+
+
+body {
+    color: #fff;
+  }
+  h1,
+  h2,
+  h4,
+  h5,
+  h6 {
+    color: #1f1f29;
+  }
+  p {
+    color: #424250;
+  }
+  h3,
+  .h3 {
+    color: #5b5efa;
+  }
+  /* ==========================================================================
+   BACKGROUNDS
+========================================================================== */
+.startupz-grey {
+    background-color: #f8f8f8;
+    color: #fff;
+  }
+  .startupz-primary {
+    background-color: #5b5efa;
+    color: #fff;
+  }
+  .startupz-waves {
+    background-color: none;
+    background-image: url(data:image/jpeg;base64,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);
+    background-repeat: repeat;
+  }
+  .startupz-gradient {
+    background: -moz-linear-gradient(-360deg, #fff21e 23%, #5b5efa 111%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-360deg, #fff21e 23%, #5b5efa 111%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(-360deg, #fff21e 23%, #5b5efa 111%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#fff21e, endColorstr=#5b5efa, GradientType=0);
+    /* IE6-9 */
+  }
+  .startupz-gradient-overlay {
+    background-image: linear-gradient(19deg, #8c82ff 0%, #2bb9ff 100%);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.6;
+  }
+  .startupz-waves h1,
+  .startupz-primary h1,
+  .startupz-gradient h1,
+  .startupz-waves h2,
+  .startupz-primary h2,
+  .startupz-gradient h2,
+  .startupz-waves h3,
+  .startupz-primary h3,
+  .startupz-gradient h3,
+  .startupz-waves h4,
+  .startupz-primary h4,
+  .startupz-gradient h4,
+  .startupz-waves h5,
+  .startupz-primary h5,
+  .startupz-gradient h5,
+  .startupz-waves p,
+  .startupz-primary p,
+  .startupz-gradient p {
+    color: #fff;
+  }
+  .theme-gradient {
+    background: -moz-linear-gradient(-360deg, rgba(135, 133, 255, 0.65) 23%, rgba(35, 183, 239, 0.7) 111%);
+    background: -webkit-linear-gradient(-360deg, rgba(135, 133, 255, 0.65) 23%, rgba(35, 183, 239, 0.7) 111%);
+    background: linear-gradient(-360deg, rgba(135, 133, 255, 0.65) 23%, rgba(35, 183, 239, 0.7) 111%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=rgba(135, 133, 255, 0.65), endColorstr=rgba(35, 183, 239, 0.7), GradientType=0);
+  }

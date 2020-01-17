@@ -1,0 +1,85 @@
+/* ==========================================================================
+  8. PADDING AND MARGIN -- styles that controls the padding of major sections  
+========================================================================== */
+/*------------------------------------------*/
+/*	 Spacing setup
+/*------------------------------------------*/
+section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  section:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  section.padding-xxs {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  section.padding-xs {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  section.padding-sm {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  section.padding-md {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  section.padding-lg {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+  section.padding-xlg {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .padding-0,
+  .padding-0 {
+    padding: 0;
+  }
+  .padding-bottom-0 {
+    padding-bottom: 0 !important;
+  }
+  .padding-top-0 {
+    padding-bottom: 0 !important;
+  }
+  @media all and (max-width: 767px) {
+    section.padding-lg,
+    section.padding-md {
+      padding: 5em 0;
+    }
+    section.padding-xlg {
+      padding: 8em 0;
+    }
+  }
+  /*------------------------------------------*/
+  /*	 Text Alignment
+  /*------------------------------------------*/
+  .text-center {
+    text-align: center;
+  }
+  .text-right {
+    text-align: right;
+  }
+  .text-left {
+    text-align: left;
+  }
+  /*------------------------------------------*/
+  /*	 Positioning vertically center
+  /*------------------------------------------*/
+  .position-center {
+    position: relative;
+  }
+  @media all and (min-width: 767px) {
+    .position-center {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      -webkit-transform: translateY(-50%);
+    }
+  }

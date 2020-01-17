@@ -1,0 +1,152 @@
+/* ==========================================================================
+  3. TYPOGRAPHY - styles that defines typography of the template
+========================================================================== */
+body {
+    font-family: 'Raleway', sans-serif;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #252525;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-variant-ligatures: common-ligatures;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  h1 {
+    font-size: 49px;
+    line-height: 1em;
+    font-weight: 700;
+    margin-bottom: 15px;
+    letter-spacing: 0.75px;
+  }
+  h2 {
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: 700;
+    margin-bottom: 13px;
+    letter-spacing: 1.2px;
+
+    &.title {
+      font-size: 19px;
+      line-height: 19px;
+      margin-bottom: 13px;
+      letter-spacing: 1.2px;
+    }
+  }
+  h3 {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 500;
+    margin-bottom: 25px;
+  }
+  h4 {
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+  h5 {
+    font-size: 18px;
+    line-height: 1.8em;
+    font-weight: 600;
+  }
+  li {
+    font-size:14px;
+  }
+  p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 30px 0 0px;
+    letter-spacing: 0.75px;
+    color: #424250;
+  }
+  p + p {
+    //margin-top: 25px;
+  }
+  p.heading {
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 300;
+  }
+  p.subheading {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+  p.superheading {
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  p.subtitle {
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 400;
+  }
+  p.subtitle + p {
+    margin-top: 15px;
+  }
+  .title {
+    text-transform: uppercase;
+    font-weight: 800;
+  }
+  .styled-text {
+    font-weight: 300;
+    display: inline-block;
+    color: #1f1f29;
+  }
+  .styled-text a {
+    color: #1f1f29;
+  }
+  .styled-text:after {
+    content: '';
+    display: block;
+    border-bottom: 1px solid #5b5efa;
+    margin-top: 11px;
+  }
+  .text-underline {
+    text-decoration: underline;
+    color: #1f1f29;
+    opacity: 0.8;
+  }
+  .text-underline:hover,
+  .text-underline:focus,
+  .text-underline:active {
+    color: #1f1f29;
+    opacity: 0.5;
+  }
+  /*------------------------------------------*/
+  /*	 classes to make text uppercase and lowercase
+  /*------------------------------------------*/
+  .text-uppercase {
+    text-transform: uppercase;
+  }
+  .text-lowercase {
+    text-transform: lowercase;
+  }
+  /*------------------------------------------*/
+  /*	 Font size of icons
+  /*------------------------------------------*/
+  .i-xl {
+    font-size: 5em;
+  }
+  .i-lg {
+    font-size: 4em;
+  }
+  .i-md {
+    font-size: 3.5em;
+  }
+  .i-sm {
+    font-size: 2em;
+  }
+  .i-xs {
+    font-size: 1.2em;
+  }

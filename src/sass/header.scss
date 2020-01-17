@@ -1,0 +1,85 @@
+/* ==========================================================================
+   14. FOOTER AND HEADER- styles that controls the footer part of the template
+========================================================================== */
+.header {
+    position: relative;
+    height: 510px;
+    padding: 60px 0 0 0px;
+    /* background-image: url('../img/header_bg.jpg'); */
+    background-position: right top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+  @media all and (max-width: 1023px) {
+    .header {
+      background-size: cover;
+    }
+  }
+  .header > .col-md-12 {
+    height: 100%;
+  }
+  .header .header-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* height: 240px;
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.29) 23%, #ffffff 78%);
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.29) 23%, #ffffff 78%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.29) 23%, #ffffff 78%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#ffffff', GradientType=0); */
+  }
+  .header .resume-title {
+    position: absolute;
+    bottom: 72px;
+    width: calc(100% - 150px);
+    z-index: 2;
+  }
+  .header .resume-title h2 {
+    font-size: 45px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #1f1f29;
+    line-height: 0.69em;
+    letter-spacing: 0.14em;
+
+    @include desktop {
+      font-size: 70px;
+    }
+  }
+  .header .resume-designation {
+    width: 100%;
+    margin-top: 4px;
+    display: inline-block;
+  }
+  .header .resume-designation span {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #1f1f29;
+    letter-spacing: 0.5em;
+    vertical-align: middle;
+  }
+  .header .resume-designation span.border {
+    width: 100%;
+    max-width: 290px;
+    height: 4px;
+    margin-right: 25px;
+    background-color: $primaryColor;
+  }
+  /* @media all and (max-width: 480px) {
+    header .col-md-12.extra-offset-md {
+      padding: 0 15px;
+    }
+    header .col-md-12.extra-offset-md .btn.btn-transparent {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+  @media all and (max-width: 479px) {
+    header .resume-title h2 {
+      font-size: 45px;
+    }
+  } */

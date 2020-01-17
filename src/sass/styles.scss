@@ -1,0 +1,22 @@
+@charset "utf-8";
+@import "../../node_modules/bulma/bulma.sass";
+//@import "../lib/font-awesome/css/all.min.css";
+
+
+@import "reset.scss";
+@import "variables";
+@import "colors";
+@import "global.scss";
+//@import "fonts";
+@import "typography.scss";
+@import "animations";
+@import "preloader";
+//@import "icons";
+@import "layout";
+@import "buttons";
+@import "navigation";
+@import "components";
+@import "general";
+@import "form";
+@import "header";
+@import "footer";

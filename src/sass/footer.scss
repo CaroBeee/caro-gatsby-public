@@ -1,0 +1,117 @@
+.footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footer:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+
+.footer {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    color: $textColor;
+  }
+  .footer a {
+    color: $primaryColor;
+  }
+  .footer a:hover {
+    text-decoration: none;
+    color: $primaryColor;
+  }
+  .footer .col-md-4 {
+    margin-bottom: 50px;
+  }
+  .footer p {
+    font-size: 13px;
+  }
+  .footer p.superhead {
+    text-transform: uppercase;
+  }
+  .footer p.contact {
+    padding-left: 20px;
+    text-indent: -10px;
+  }
+  .footer p.contact i {
+    margin-right: 10px;
+    color: #c8c8c9;
+  }
+  .footer hr.large {
+    width: 100%;
+    max-width: 100%;
+    margin: 0.5em auto;
+    border-width: 2px;
+    border-color: #cecece;
+  }
+  .footer .copyright {
+    padding: 20px 0;
+    font-size: 12px;
+    color: $textColor;
+  }
+  .footer .footer-social-links {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .footer .footer-social-links li {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 50% 50%;
+    margin: 10px 10px 10px 0;
+    list-style: none;
+    display: inline-block;
+  }
+  .footer .footer-social-links li i {
+    width: 100%;
+    text-align: center;
+    line-height: inherit;
+    display: inline-block;
+  }
+  .footer .footer-social-links li.facebook {
+    background-color: #225b99;
+  }
+  .footer .footer-social-links li.twitter {
+    background-color: #00adf2;
+  }
+  .footer .footer-social-links li.google-plus {
+    background-color: #dc4d2d;
+  }
+  .footer .list-inline li {
+    display: block;
+  }
+  .footer .list-inline a {
+    color: #1f1f29;
+  }
+  .footer .list-inline a:hover {
+    color: #5b5efa;
+    text-decoration: none;
+    border: none;
+  }
+  @media all and (max-width: 767px) {
+    .footer [class^="col-"] {
+      margin-bottom: 25px;
+    }
+  }
+  @media all and (min-width: 768px) {
+    .footer .col-md-4 {
+      width: 33%;
+      display: table-cell;
+    }
+  }
+  @media all and (max-width: 480px) {
+    .footer .list-inline a {
+      border-right: 1px solid #b9b9b9;
+      padding-right: 10px;
+    }
+    .footer .list-inline a:hover {
+      border-right: 1px solid #b9b9b9;
+    }
+    .footer .list-inline li {
+      display: inline-block;
+      margin-bottom: 15px;
+    }
+  }

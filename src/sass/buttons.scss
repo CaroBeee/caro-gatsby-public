@@ -1,0 +1,146 @@
+/* ==========================================================================
+   9. BUTTONS
+========================================================================== */
+.btn {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 15px;
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+  }
+  .btn-group {
+    margin-left: 40px;
+  }
+  .btn-group .btn:not(:last-child) {
+    margin-right: 15px;
+  }
+  .btn-group .btn {
+    border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    -webkit-border-radius: 5px !important;
+  }
+  .btn-xl {
+    padding: 20px 100px;
+  }
+  .btn-lg {
+    padding: 18px 70px;
+  }
+  .btn-md {
+    padding: 11px 0px;
+  }
+  .btn-sm {
+    padding: 8px 10px;
+  }
+  .btn-primary {
+    background: #5b5efa;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+  }
+  .btn-primary:hover,
+  .btn-primary:focus,
+  .btn-primary:active,
+  .btn-primary.active {
+    background: #1115f8;
+    color: #fff;
+  }
+  .btn-primary:hover:focus,
+  .btn-primary:focus:focus,
+  .btn-primary:active:focus,
+  .btn-primary.active:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  .btn-primary.inverse {
+    background: #fff;
+    color: #1f1f29;
+    border-bottom: 4px solid #ff4d57;
+  }
+  .btn-primary.inverse:hover,
+  .btn-primary.inverse:focus,
+  .btn-primary.inverse:active,
+  .btn-primary.inverse.active {
+    background: #fff;
+    color: #a5a5bb;
+  }
+  .btn-transparent {
+    padding: 0;
+    background: transparent;
+    color: #1f1f29;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.25px;
+  }
+  .btn-transparent svg {
+    width: 20px;
+    height: 20px;
+    margin-right: 6px;
+    vertical-align: text-bottom;
+    fill: #ff4d57;
+  }
+  .btn-transparent:hover,
+  .btn-transparent:focus,
+  .btn-transparent:active,
+  .btn-transparent:visited,
+  .btn-transparent.active {
+    cursor: pointer;
+    background: transparent;
+    color: #1f1f29;
+    border: none;
+    outline: none;
+    box-shadow: none;
+  }
+  .btn-transparent.inverse {
+    background: #fff;
+    color: #5b5efa;
+  }
+  .btn-transparent.inverse:hover,
+  .btn-transparent.inverse:focus,
+  .btn-transparent.inverse:active,
+  .btn-transparent.inverse.active {
+    background: #fff;
+    color: #1115f8;
+  }
+  .btn-outline {
+    color: #5b5efa;
+    border: none;
+    box-shadow: inset 0 0 0 2px #5b5efa;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .btn-outline:hover,
+  .btn-outline:focus,
+  .btn-outline:active,
+  .btn-outline.active {
+    box-shadow: inset 0 0 0 2px #1115f8;
+  }
+  .btn-outline.inverse {
+    color: #fff;
+    box-shadow: inset 0 0 0 2px #fff;
+  }
+  .btn-outline.inverse:hover,
+  .btn-outline.inverse:focus,
+  .btn-outline.inverse:active,
+  .btn-outline.inverse.active {
+    box-shadow: inset 0 0 0 2px #d9d9d9;
+  }
+  .btn-outline.grey {
+    color: #14abf4;
+    box-shadow: inset 0 0 0 1px #d8d7d7;
+  }
+  .btn-outline.grey:hover,
+  .btn-outline.grey:focus,
+  .btn-outline.grey:active,
+  .btn-outline.grey.active {
+    box-shadow: inset 0 0 0 1px #b2b0b0;
+  }
+  p.head + .btn {
+    margin-top: 25px;
+  }
+  p + .btn {
+    margin-top: 25px;
+    margin-bottom: 55px;
+  }
