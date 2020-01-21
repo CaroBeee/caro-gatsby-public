@@ -3,7 +3,7 @@ import Img from 'gatsby-image';
 import { useStaticQuery, graphql } from 'gatsby';
 
 function renderImage(file) {
-  console.log(file);
+
   return (
      <Img fluid={file.node.childImageSharp.fluid} />
    
@@ -47,7 +47,7 @@ const PortfolioImage =  (props) => {
       .map(({ node }, index) => (
 
         <div className="column" data-project={props.project}>
-        <Img fluid={node.childImageSharp.fluid} />
+        <Img fluid={node.childImageSharp.fluid} alt={props.title}/>
         </div>
       ))}
       </div>

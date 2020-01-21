@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import { Link, animateScroll as scroll } from "react-scroll"
+import logo from "../img/svg/Logo_CB.svg"
 
 class NavMobile extends React.Component {
 
@@ -24,9 +25,9 @@ class NavMobile extends React.Component {
     >
       <div className="navbar-brand">
         <a className="navbar-item" href="#introduction">
-          Carolin Behler
+         
         </a>
-
+            <img src={logo} alt=" Carolin Behler"/>
         <a
           role="button"
           onClick={ this.toggle.bind(this) } 
@@ -54,7 +55,7 @@ class NavMobile extends React.Component {
             offset={-70}
             duration={500}
           >
-            introduction
+           Intro
           </Link>
           <Link
             className="navbar-item"
@@ -64,7 +65,7 @@ class NavMobile extends React.Component {
             offset={-70}
             duration={500}
           >
-            skill
+           Skills
           </Link>
          
             <Link

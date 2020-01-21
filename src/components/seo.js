@@ -6,19 +6,22 @@
  */
 
 import React from "react"
+import {Helmet} from "react-helmet"
 import PropTypes from "prop-types"
-import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
+import favicon from "../img/favicon.ico"
 
-function SEO({ description, lang, meta, title }) {
-  const { site } = useStaticQuery(
+const SEO = ({ description, lang, meta, title }) => {
+  const  {site} = useStaticQuery(
     graphql`
       query {
         site {
           siteMetadata {
-            title
-            description
             author
+        description
+        title
+        image
+        url
           }
         }
       }
@@ -51,24 +54,12 @@ function SEO({ description, lang, meta, title }) {
           property: `og:type`,
           content: `website`,
         },
-        {
-          name: `twitter:card`,
-          content: `summary`,
-        },
-        {
-          name: `twitter:creator`,
-          content: site.siteMetadata.author,
-        },
-        {
-          name: `twitter:title`,
-          content: title,
-        },
-        {
-          name: `twitter:description`,
-          content: metaDescription,
-        },
+      
+       
       ].concat(meta)}
-    />
+    >
+       <link rel="icon" href={favicon} />
+    </Helmet>
   )
 }
 
@@ -83,6 +74,7 @@ SEO.propTypes = {
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string.isRequired,
+
 }
 
 export default SEO

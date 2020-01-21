@@ -40,13 +40,17 @@
     font-size: 45px;
     font-weight: 900;
     text-transform: uppercase;
-    color: #1f1f29;
-    line-height: 0.69em;
+    color: $textColor;
+    line-height: 0.9em;
     letter-spacing: 0.14em;
 
     @include desktop {
       font-size: 70px;
     }
+
+    width:250px;
+    margin-bottom:0;
+  
   }
   .header .resume-designation {
     width: 100%;

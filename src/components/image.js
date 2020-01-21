@@ -26,9 +26,9 @@ const Image = () => {
     }
   `)
 
-  return <Img   className="image profile-image" 
-  alt="Caro Behler sitzt an der Wand"
-  fluid={data.placeholderImage.childImageSharp.fluid} />
+  return <Img  className="image profile-image" 
+
+  fluid={data.placeholderImage.childImageSharp.fluid} alt="Caro Behler sitzt an der Wand" />
 }
 
 export default Image

@@ -9,6 +9,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import { Link, animateScroll as scroll } from "react-scroll"
+import {Helmet} from "react-helmet"
 import Header from "./header"
 import NavMobile from "./nav-mobile"
 import NavVert from "./nav-vertical"
@@ -40,15 +41,16 @@ const LayoutStart = ({ children }) => {
   `)
 
   return (
-   
     <>
+
+ 
      <NavMobile/>
     <NavVert/>
       
      
         <main id="main">
         <div className="main-container container">
-        <Header />
+        <Header siteTitle={data.site.siteMetadata.title}  />
         <AboutMe/>
          <Skills/>
          <Work/>
@@ -57,6 +59,7 @@ const LayoutStart = ({ children }) => {
         
           </div>
           <Footer/>
+          {children}
         </main>
       
      
@@ -64,6 +67,8 @@ const LayoutStart = ({ children }) => {
   )
 }
 
-
+LayoutStart.propTypes = {
+  children: PropTypes.node.isRequired,
+}
 
 export default LayoutStart

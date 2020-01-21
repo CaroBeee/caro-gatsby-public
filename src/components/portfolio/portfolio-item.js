@@ -18,7 +18,7 @@ class PortfolioItem extends Component {
     }
 
     this.toggleModal = this.toggleModal.bind(this)
-    console.log(props);
+
 
     
 
@@ -52,7 +52,7 @@ class PortfolioItem extends Component {
    
 
     return (
-      <div className="column is-4">
+     
       <div
         className="card"
 
@@ -68,8 +68,8 @@ class PortfolioItem extends Component {
 
  <div className="card-image">
     
-   {/*  <PortfolioImageTeaser img={this.props.imgTeaser} /> */}
-    <PortfolioImageMockup img={this.props.imgMockup} />
+
+    <PortfolioImageMockup img={this.props.imgMockup} title={this.props.title} />
    
   </div>
   <div className="card-content">
@@ -111,7 +111,7 @@ class PortfolioItem extends Component {
           <h1 className="has-text-centered">{this.props.title}</h1>
           <hr className="center"/>
           
-          <PortfolioImageMockup img={this.props.imgMockup} />
+          <PortfolioImageMockup img={this.props.imgMockup} title={this.props.title} />
           <div className="content">
           <h2 className="title">Facts</h2>
         
@@ -166,7 +166,7 @@ class PortfolioItem extends Component {
           {this.props.description}
           </p>
 
-          <PortfolioImage project={this.props.meta} />
+          <PortfolioImage project={this.props.meta} title={this.props.title}/>
           </div>
         </section>
         <footer className="modal-card-foot has-text-centered">
@@ -178,7 +178,7 @@ class PortfolioItem extends Component {
      
     
       </div>
-      </div>
+ 
     )
   }
 }

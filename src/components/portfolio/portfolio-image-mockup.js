@@ -3,10 +3,10 @@ import Img from 'gatsby-image';
 import { StaticQuery, graphql } from 'gatsby';
 
 
-function renderImage(file) {
-  console.log(file);
+function renderImage(file, title) {
+
   return (
-     <Img fluid={file.node.childImageSharp.fluid} />
+     <Img fluid={file.node.childImageSharp.fluid} alt={title} />
    
   )
 }
@@ -40,7 +40,8 @@ const PortfolioImageMockup = function (props) {
       const image = data.images.edges.find(
         image => image.node.base === props.img
       )
-      return(renderImage(image))
+      const altText = "Mockup-"+props.title
+      return(renderImage(image, altText))
     }}
   />
 }

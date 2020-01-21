@@ -1,5 +1,6 @@
 @charset "utf-8";
 @import "../../node_modules/bulma/bulma.sass";
+@import "../../node_modules/bulma-carousel/src/sass/index.sass";
 //@import "../lib/font-awesome/css/all.min.css";
 
 
@@ -7,11 +8,11 @@
 @import "variables";
 @import "colors";
 @import "global.scss";
-//@import "fonts";
+@import "fonts";
 @import "typography.scss";
 @import "animations";
 @import "preloader";
-//@import "icons";
+@import "icons";
 @import "layout";
 @import "buttons";
 @import "navigation";

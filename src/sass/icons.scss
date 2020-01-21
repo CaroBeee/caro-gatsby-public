@@ -1,54 +1,9 @@
 /* ==========================================================================
   7. ICONS -- styles that controls the  icons
 ========================================================================== */
-@font-face {
-    font-family: '';
-    src: url('../fonts/.svg');
-    src: url('../fonts/.eot?7nox1h#iefix') format('embedded-opentype'), url('../fonts/.ttf?7nox1h') format('truetype'), url('../fonts/.woff?7nox1h') format('woff'), url('../fonts/.svg?7nox1h#') format('svg');
-    font-weight: normal;
-    font-style: normal;
-  }
-  [class^="icon-"],
-  [class*=" icon-"] {
-    /* use !important to prevent issues with browser extensions that change fonts */
-    font-family: '' !important;
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-    /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-  .icon-awards:before {
-    content: "\e900";
-  }
-  .icon-clients:before {
-    content: "\e901";
-  }
-  .icon-codelines:before {
-    content: "\e902";
-  }
-  .icon-coding:before {
-    content: "\e903";
-  }
-  .icon-filter:before {
-    content: "\e904";
-  }
-  .icon-layer:before {
-    content: "\e905";
-  }
-  .icon-projects:before {
-    content: "\e906";
-  }
-  .icon-search:before {
-    content: "\e907";
-  }
-  .icon-share:before {
-    content: "\e908";
-  }
-  .icon-support:before {
-    content: "\e909";
+
+
+  .sw-icon {
+    max-height:25px;
+    max-width:50px;
   }

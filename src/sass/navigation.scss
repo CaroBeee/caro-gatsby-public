@@ -197,6 +197,14 @@
       border-top: 15px solid $secondaryColor;
       border-left:15px solid $secondaryColor;
       border-right:15px solid $secondaryColor;
+
+      .navbar-item {
+        padding:0 0.5rem;
+        
+        img {
+          max-width:50px;
+        }
+      }
     }
   
     .navbar-burger {

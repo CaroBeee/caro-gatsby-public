@@ -11,9 +11,8 @@ const Header = ({ siteTitle }) => (
       Lebenslauf als PDF
     </button>
     <div className="resume-title">
-      <h2>Caro</h2>
-      <h2>Behler</h2>
-      {siteTitle}
+<h2>{siteTitle}</h2>
+   
       <div className="resume-designation is-offset-1">
         <span className="border"></span>
         <span>Creative UI Developer</span>

@@ -1,5 +1,16 @@
 import React, { Component } from "react";
 import Image from "../components/image"
+import svgVSC from '../img/icons/Visual_Studio_Code_1.18_icon.svg';
+import svgPhpstorm from '../img/icons/phpstorm.svg';
+import svgAtom from '../img/icons/Atom_editor_logo.svg';
+import svgPS from '../img/icons/Adobe_Photoshop_CC_icon.svg';
+import svgAI from '../img/icons/Adobe_Illustrator_CC_icon.svg';
+import svgPR from '../img/icons/Adobe_Premiere_Pro_Logo.svg';
+import svgAE from '../img/icons/Adobe_After_Effects_CC_icon.svg';
+import svgInvision from '../img/icons/Invision.svg';
+import svgSlack from '../img/icons/slack.svg';
+import svgActiveCollab from '../img/icons/ActiveCollab.svg';
+import svgChromeDevTool from '../img/icons/chrome-devtools.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 class AboutMe extends React.Component {
@@ -94,14 +105,14 @@ class AboutMe extends React.Component {
             <h3 className="">Damit arbeite ich</h3>       
             <div className="content">
               <ul>
-              <li>Visual Studio Code</li>
-                <li>PHP Storm</li>
-                <li>Atom</li>               
-                <li>Adobe Programme wie Ps, Ai, Pr, Ae</li>
-                <li>InVision Inspect</li>
-                <li>Slack</li>
-                <li>ActiveCollab</li>
-                <li>Chrome Developer Tool</li>
+              <li><img className="sw-icon" src={svgVSC}/> -  Visual Studio Code </li>
+                <li><img className="sw-icon" src={svgPhpstorm}/> - PHP Storm</li>
+                <li> <img className="sw-icon" src={svgAtom}/> - Atom</li>               
+                <li>Adobe Programme wie <img className="sw-icon" src={svgPS}/> <img className="sw-icon" src={svgAI}/> <img className="sw-icon" src={svgPR}/> <img className="sw-icon" src={svgAE}/></li>
+                <li> <img className="sw-icon" src={svgInvision}/> - InVision Inspect</li>
+                <li> <img className="sw-icon" src={svgSlack}/> - Slack</li>
+                <li> <img className="sw-icon" src={svgActiveCollab}/> - ActiveCollab</li>
+                <li> <img className="sw-icon" src={svgChromeDevTool}/> - Chrome Developer Tool</li>
               </ul>
           </div>
           </div>

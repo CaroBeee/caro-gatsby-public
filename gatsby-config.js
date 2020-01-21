@@ -1,8 +1,10 @@
 module.exports = {
   siteMetadata: {
     title: `Caro Behler`,
-    description: `Hallo, ich bin Caro(lin) Behler und Webentwicklerin. Alles über mich findet sich hier.`,
+    description: `Caro Behler ist Webentwicklerin (Web-Developer). Die Fähigkeiten und das Portfolio findet man hier. `,
     author: `Caro Behler`,
+    url:"https://carobehler.de",
+    image:"/img/cubephoto.jpg"
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -13,7 +15,7 @@ module.exports = {
       },
     }, */
   
-      {
+   /*    {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
@@ -21,7 +23,27 @@ module.exports = {
           urls: ["fonts.css"]
         }
       }
+    }, */
+    {
+      resolve: `gatsby-plugin-webfonts`,
+      options: {
+        fonts: {
+          google: [
+            {
+              family: "Raleway",
+              variants: ["100", "200","300", "400", "500", "600", "700", "800", "900"],
+              strategy: 'selfHosted' 
+            },
+          ],
+        },
+     
+        useMinify: true,
+        usePreload: true,
+        usePreconnect: false,
+      },
     },
+
+    
     {
       resolve: `gatsby-source-filesystem`,
       options: {
