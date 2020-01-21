@@ -10,13 +10,14 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import { Link, animateScroll as scroll } from "react-scroll"
 import {Helmet} from "react-helmet"
+import Loadable from 'react-loadable'
 import Header from "./header"
 import NavMobile from "./nav-mobile"
 import NavVert from "./nav-vertical"
 import AboutMe from "./aboutMe"
 import Skills from "./skills/skills"
 import Work from "./work"
-import Portfolio from "./portfolio/portfolio"
+//import Portfolio from "./portfolio/portfolio"
 import Contact from "./contact"
 import Footer from "./footer"
 
@@ -27,6 +28,13 @@ import { fab } from '@fortawesome/free-brands-svg-icons'
 
 library.add(fas, fab)
 
+
+const LoadableComponent = Loadable({
+  loader: () => import("./portfolio/portfolio"),
+  loading() {
+    return <div>Loading... (rendered from the server)</div>;
+  },
+});
 
 
 const LayoutStart = ({ children }) => {
@@ -54,7 +62,7 @@ const LayoutStart = ({ children }) => {
         <AboutMe/>
          <Skills/>
          <Work/>
-         <Portfolio/>
+         <LoadableComponent/>
          <Contact/>
         
           </div>

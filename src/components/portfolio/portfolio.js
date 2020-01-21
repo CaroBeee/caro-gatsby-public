@@ -4,7 +4,7 @@ import bulmaCarousel from "../../../node_modules/bulma-carousel/dist/js/bulma-ca
 
 // Requiring function causes error during builds
 
-const module = typeof window !== `undefined` ? require("module") : null
+
 
 class Portfolio extends Component {
   constructor(props) {
