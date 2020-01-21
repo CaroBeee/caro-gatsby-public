@@ -121,7 +121,7 @@ body {
     }
   }
     /*------------------------------------------*/
-  /*	 Bulma Overrides
+  /*	 Bulma Overrides/extentions
   /*------------------------------------------*/
 
 .tag:not(body) { 
@@ -144,6 +144,17 @@ body {
   height:24px;
  
 }
+
+.navbar-center {
+  flex-grow: 1; 
+  justify-content: center;
+}
+
+.content h3 {
+  font-size:1.25em;
+}
+
+
 
 
   /*------------------------------------------*/

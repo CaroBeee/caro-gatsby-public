@@ -18,7 +18,7 @@ class NavMobile extends React.Component {
        
         
             <nav
-      className="navbar is-fixed-top is-hidden-desktop"
+      className="top-navbar navbar is-fixed-top is-hidden-desktop"
       role="navigation"
       aria-label="main navigation"
     >

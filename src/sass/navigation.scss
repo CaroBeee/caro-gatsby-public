@@ -191,32 +191,37 @@
 
   //BULMA
 
-  .navbar-brand {
-    border-top: 15px solid $secondaryColor;
-    border-left:15px solid $secondaryColor;
-    border-right:15px solid $secondaryColor;
-  }
+  .top-navbar {
 
-  .navbar-burger {
-
-    &:hover {
-      background-color: transparent;
+    .navbar-brand {
+      border-top: 15px solid $secondaryColor;
+      border-left:15px solid $secondaryColor;
+      border-right:15px solid $secondaryColor;
     }
-
+  
+    .navbar-burger {
+  
+      &:hover {
+        background-color: transparent;
+      }
+  
+    }
+  
+    .navbar-menu {
+      padding:0;
+    }
+  
+    .navbar-start {
+      border-left:15px solid $secondaryColor;
+      border-right:15px solid $secondaryColor;
+    }
+  
+    .navbar-item {
+      padding: 1rem 2rem;
+    }
   }
 
-  .navbar-menu {
-    padding:0;
-  }
 
-  .navbar-start {
-    border-left:15px solid $secondaryColor;
-    border-right:15px solid $secondaryColor;
-  }
-
-  .navbar-item {
-    padding: 1rem 2rem;
-  }
   /*------------------------------------------*/
   /*	 General list
   /*------------------------------------------*/

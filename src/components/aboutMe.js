@@ -100,7 +100,7 @@ class AboutMe extends React.Component {
                 <li>Adobe Programme wie Ps, Ai, Pr, Ae</li>
                 <li>InVision Inspect</li>
                 <li>Slack</li>
-                <li>ActiveCollapse</li>
+                <li>ActiveCollab</li>
                 <li>Chrome Developer Tool</li>
               </ul>
           </div>
