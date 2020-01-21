@@ -3,12 +3,6 @@ import PortfolioItem from "./portfolio-item"
 import bulmaCarousel from "../../../node_modules/bulma-carousel/dist/js/bulma-carousel.min.js"
 
 // Requiring function causes error during builds
-// as the code tries to reference window
-const module = require("module") // Error
-// Wrap the require in check for window
-if (typeof window !== `undefined`) {
-  const module = require("module")
-}
 
 const module = typeof window !== `undefined` ? require("module") : null
 
