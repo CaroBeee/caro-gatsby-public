@@ -7,7 +7,7 @@ import svgPS from '../img/icons/Adobe_Photoshop_CC_icon.svg';
 import svgAI from '../img/icons/Adobe_Illustrator_CC_icon.svg';
 import svgPR from '../img/icons/Adobe_Premiere_Pro_Logo.svg';
 import svgAE from '../img/icons/Adobe_After_Effects_CC_icon.svg';
-import svgInvision from '../img/icons/Invision.svg';
+import svgInvision from '../img/icons/invision.svg';
 import svgSlack from '../img/icons/slack.svg';
 import svgActiveCollab from '../img/icons/ActiveCollab.svg';
 import svgChromeDevTool from '../img/icons/chrome-devtools.jpg';
