@@ -8,8 +8,8 @@ import svgAI from '../img/icons/Adobe_Illustrator_CC_icon.svg';
 import svgPR from '../img/icons/Adobe_Premiere_Pro_Logo.svg';
 import svgAE from '../img/icons/Adobe_After_Effects_CC_icon.svg';
 import svgInvision from '../img/icons/invision.svg';
-import svgSlack from '../img/icons/slack.svg';
-import svgActiveCollab from '../img/icons/ActiveCollab.svg';
+import svgSlack from '../img/icons/slack_notext.svg';
+import svgActiveCollab from '../img/icons/ActiveCollab_notext.svg';
 import svgChromeDevTool from '../img/icons/chrome-devtools.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
@@ -25,11 +25,8 @@ class AboutMe extends React.Component {
               <Image />
             </div>
             <div className="card-content">
-              <div className="media">
-               
-              </div>
 
-              <div className="content">
+            
                 <ul className="profile-information">
                   <li>
                   <FontAwesomeIcon className="profile-information_icon" icon={[ 'fas', 'paperclip']}></FontAwesomeIcon>
@@ -59,7 +56,7 @@ class AboutMe extends React.Component {
                     </p>
                   </li>
                 </ul>
-              </div>
+            
             </div>
           </div>
         </div>
@@ -105,14 +102,14 @@ class AboutMe extends React.Component {
             <h3 className="">Damit arbeite ich</h3>       
             <div className="content">
               <ul>
-              <li><img className="sw-icon" src={svgVSC}/> -  Visual Studio Code </li>
-                <li><img className="sw-icon" src={svgPhpstorm}/> - PHP Storm</li>
-                <li> <img className="sw-icon" src={svgAtom}/> - Atom</li>               
-                <li>Adobe Programme wie <img className="sw-icon" src={svgPS}/> <img className="sw-icon" src={svgAI}/> <img className="sw-icon" src={svgPR}/> <img className="sw-icon" src={svgAE}/></li>
-                <li> <img className="sw-icon" src={svgInvision}/> - InVision Inspect</li>
-                <li> <img className="sw-icon" src={svgSlack}/> - Slack</li>
-                <li> <img className="sw-icon" src={svgActiveCollab}/> - ActiveCollab</li>
-                <li> <img className="sw-icon" src={svgChromeDevTool}/> - Chrome Developer Tool</li>
+              <li><img className="sw-icon" src={svgVSC} alt="Visual Studio Code"/> -  Visual Studio Code </li>
+                <li><img className="sw-icon" src={svgPhpstorm} alt="PHP Storm"/> - PHP Storm</li>
+                <li> <img className="sw-icon" src={svgAtom} alt="Atom"/> - Atom</li>               
+                <li>Adobe Programme wie <img className="sw-icon" src={svgPS} alt="Adobe Photoshop"/> <img className="sw-icon" src={svgAI} alt="Adobe Illustrator"/> <img className="sw-icon" src={svgPR} alt="Adobe Premiere Pro"/> <img className="sw-icon" src={svgAE} alt="Adobe After Effects"/></li>
+                <li> <img className="sw-icon" src={svgInvision} alt="InVision"/> - InVision Inspect</li>
+                <li> <img className="sw-icon" src={svgSlack} alt="Slack"/> - Slack</li>
+                <li> <img className="sw-icon" src={svgActiveCollab} alt="ActiveCollab"/> - ActiveCollab</li>
+                <li> <img className="sw-icon" src={svgChromeDevTool} alt="Chrome Developer Tool"/> - Chrome Developer Tool</li>
               </ul>
           </div>
           </div>

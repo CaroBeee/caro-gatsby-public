@@ -16,9 +16,7 @@
       background-size: cover;
     }
   }
-  .header > .col-md-12 {
-    height: 100%;
-  }
+
   .header .header-overlay {
     position: absolute;
     bottom: 0;
@@ -35,55 +33,48 @@
     bottom: 72px;
     width: calc(100% - 150px);
     z-index: 2;
-  }
-  .header .resume-title h2 {
-    font-size: 45px;
-    font-weight: 900;
-    text-transform: uppercase;
-    color: $textColor;
-    line-height: 0.9em;
-    letter-spacing: 0.14em;
 
-    @include desktop {
-      font-size: 70px;
-    }
-
-    width:250px;
-    margin-bottom:0;
+    h2 {
+      font-size: 45px;
+      font-weight: 900;
+      text-transform: uppercase;
+      color: $textColor;
+      line-height: 0.9em;
+      letter-spacing: 0.14em;
   
+      @include desktop {
+        font-size: 70px;
+      }
+  
+      width:250px;
+      margin-bottom:0;
+    
+    }
   }
+ 
   .header .resume-designation {
     width: 100%;
     margin-top: 4px;
     display: inline-block;
-  }
-  .header .resume-designation span {
-    display: inline-block;
-    font-size: 14px;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #1f1f29;
-    letter-spacing: 0.5em;
-    vertical-align: middle;
-  }
-  .header .resume-designation span.border {
-    width: 100%;
-    max-width: 290px;
-    height: 4px;
-    margin-right: 25px;
-    background-color: $primaryColor;
-  }
-  /* @media all and (max-width: 480px) {
-    header .col-md-12.extra-offset-md {
-      padding: 0 15px;
+
+    span {
+      display: inline-block;
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #1f1f29;
+      letter-spacing: 0.5em;
+      vertical-align: middle;
+  
+      
     }
-    header .col-md-12.extra-offset-md .btn.btn-transparent {
-      display: block;
-      margin: 0 auto;
+
+    .border {
+      width: 100%;
+      max-width: 290px;
+      height: 4px;
+      margin-right: 25px;
+      background-color: $primaryColor;
     }
+  
   }
-  @media all and (max-width: 479px) {
-    header .resume-title h2 {
-      font-size: 45px;
-    }
-  } */

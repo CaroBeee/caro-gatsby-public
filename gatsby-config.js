@@ -31,8 +31,9 @@ module.exports = {
           google: [
             {
               family: "Raleway",
-              variants: ["100", "200","300", "400", "500", "600", "700", "800", "900"],
-              strategy: 'selfHosted' 
+              variants: ["900", "100", "200","300", "400", "500", "600", "700", "800"],
+              strategy: 'selfHosted' ,
+              fontDisplay: 'swap'
             },
           ],
         },
@@ -58,22 +59,24 @@ module.exports = {
   
     `gatsby-plugin-sass`,
     `gatsby-plugin-postcss`,
-   /*   {
+     `gatsby-plugin-minify`,
+    /*  {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Caro Behler Site`,
         short_name: `CB Site`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#fff21e`,
+        theme_color: `#fff21e`,
         display: `minimal-ui`,
-        icon: `static/img/svg/icons.svg`, // This path is relative to the root of the site.
+        icon: `img/svg/Logo_CB.svg`, // This path is relative to the root of the site.
+        crossOrigin: `use-credentials`,
       },
-    },  */
-    
+    },  
+     */
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    /*  `gatsby-plugin-offline`, */
+    // `gatsby-plugin-offline`, 
     
   ],
   pathPrefix: "/caro-gatsby"

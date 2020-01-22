@@ -9,7 +9,7 @@ class Work extends React.Component {
         className="columns"
    
       >
-        <div className="column is-5 is-offset-1 offset-lt">
+        <div className="column is-5 is-offset-1">
           <h2 className="title">Berufliche Laufbahn</h2>
           <hr />
           <div className="timeline-centered">
@@ -55,7 +55,7 @@ Technisch qualitative Prüfung und Abnahme von Sendematerial.
             </article>
           </div>
         </div>
-        <div className="column is-5  offset-rt">
+        <div className="column is-5 is-offset-1">
           <h2 className="title">Ausbildung</h2>
           <hr />
           <div className="timeline-centered">

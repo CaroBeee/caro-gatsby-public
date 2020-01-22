@@ -28,7 +28,9 @@ const PortfolioImage =  (props) => {
                 base64
                 sizes
                 src
+                srcWebp
                 srcSet
+                srcSetWebp
               }
             }
           }

@@ -28,7 +28,9 @@ const PortfolioImageMockup = function (props) {
                   base64
                   sizes
                   src
+                  srcWebp
                   srcSet
+                  srcSetWebp
                 }
               }
             }

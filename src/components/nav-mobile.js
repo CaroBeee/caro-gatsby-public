@@ -25,9 +25,9 @@ class NavMobile extends React.Component {
     >
       <div className="navbar-brand">
         <a className="navbar-item" href="#introduction">
-         
+        <img src={logo} alt=" Carolin Behler"/>
         </a>
-            <img src={logo} alt=" Carolin Behler"/>
+           
         <a
           role="button"
           onClick={ this.toggle.bind(this) } 

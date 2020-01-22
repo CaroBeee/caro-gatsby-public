@@ -58,7 +58,9 @@ const SEO = ({ description, lang, meta, title }) => {
        
       ].concat(meta)}
     >
+       <meta charSet="utf-8" />
        <link rel="icon" href={favicon} />
+       <link rel="canonical" href="https://www.carobehler.de" />
     </Helmet>
   )
 }

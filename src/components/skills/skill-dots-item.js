@@ -11,13 +11,13 @@ const SkillDotsItem = (props) => {
             <li className="skill">
               <span className="skill-title">{props.title}</span>
               <div className="skill-progress">
-              {arr.map(item => {
-                return  <i key= {item.id} className="dot active"></i>
+              {arr.map(index =>  {
+                return  <i key= {Math.random()} className="dot active"></i>
                 
             })}
              
               {rest.map(item => {
-                return  <i key= {item.id} className="dot"></i>
+                return  <i key= {Math.random()} className="dot"></i>
             })}
             
               </div>

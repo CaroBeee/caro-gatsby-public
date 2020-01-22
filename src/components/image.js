@@ -19,7 +19,13 @@ const Image = () => {
       placeholderImage: file(relativePath: { eq: "aboutMe.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 1200) {
-            ...GatsbyImageSharpFluid
+            aspectRatio
+            base64
+            sizes
+            src
+            srcWebp
+            srcSet
+            srcSetWebp
           }
         }
       }

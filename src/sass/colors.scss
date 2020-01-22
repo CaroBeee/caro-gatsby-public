@@ -1,10 +1,6 @@
 /* ==========================================================================
    4. COLORS - colors that controls the major common elements of the template
 ========================================================================== */
-//COLOURS
-$primaryColor: #ff4d57;
-$secondaryColor: #fff21e;
-$textColor: #252525;
 
 
 body {
@@ -15,19 +11,19 @@ body {
   h4,
   h5,
   h6 {
-    color: #1f1f29;
+    color: $textColor;
   }
   p {
-    color: #424250;
+    color: $textColor;
   }
   h3,
   .h3 {
-    color: #5b5efa;
+    color: $textColor;
   }
   /* ==========================================================================
    BACKGROUNDS
 ========================================================================== */
-.startupz-grey {
+/* .startupz-grey {
     background-color: #f8f8f8;
     color: #fff;
   }
@@ -42,13 +38,13 @@ body {
   }
   .startupz-gradient {
     background: -moz-linear-gradient(-360deg, #fff21e 23%, #5b5efa 111%);
-    /* FF3.6-15 */
+  
     background: -webkit-linear-gradient(-360deg, #fff21e 23%, #5b5efa 111%);
-    /* Chrome10-25,Safari5.1-6 */
+   
     background: linear-gradient(-360deg, #fff21e 23%, #5b5efa 111%);
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+   
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#fff21e, endColorstr=#5b5efa, GradientType=0);
-    /* IE6-9 */
+  
   }
   .startupz-gradient-overlay {
     background-image: linear-gradient(19deg, #8c82ff 0%, #2bb9ff 100%);
@@ -84,4 +80,4 @@ body {
     background: -webkit-linear-gradient(-360deg, rgba(135, 133, 255, 0.65) 23%, rgba(35, 183, 239, 0.7) 111%);
     background: linear-gradient(-360deg, rgba(135, 133, 255, 0.65) 23%, rgba(35, 183, 239, 0.7) 111%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=rgba(135, 133, 255, 0.65), endColorstr=rgba(35, 183, 239, 0.7), GradientType=0);
-  }
+  } */

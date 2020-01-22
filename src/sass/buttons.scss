@@ -1,7 +1,7 @@
 /* ==========================================================================
    9. BUTTONS
 ========================================================================== */
-.btn {
+ .btn {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -10,7 +10,7 @@
     -moz-border-radius: 0px;
     -webkit-border-radius: 0px;
   }
-  .btn-group {
+  /*.btn-group {
     margin-left: 40px;
   }
   .btn-group .btn:not(:last-child) {
@@ -64,50 +64,48 @@
   .btn-primary.inverse.active {
     background: #fff;
     color: #a5a5bb;
-  }
+  } */
   .btn-transparent {
     padding: 0;
     background: transparent;
-    color: #1f1f29;
+    color: $textColor;
     border: none;
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 0.25px;
-  }
-  .btn-transparent svg {
-    width: 20px;
-    height: 20px;
-    margin-right: 6px;
-    vertical-align: text-bottom;
-    fill: #ff4d57;
-  }
-  .btn-transparent:hover,
-  .btn-transparent:focus,
-  .btn-transparent:active,
-  .btn-transparent:visited,
-  .btn-transparent.active {
     cursor: pointer;
     background: transparent;
-    color: #1f1f29;
-    border: none;
-    outline: none;
-    box-shadow: none;
+  
+    &:hover {
+    
+      color: $primaryColor;
+    }
+
+   /*  svg {
+      width: 20px;
+      height: 20px;
+      margin-right: 6px;
+      vertical-align: text-bottom;
+      fill: $primaryColor;
+    } */
   }
+ 
   .btn-transparent.inverse {
     background: #fff;
-    color: #5b5efa;
+    color: $bgColor;
   }
   .btn-transparent.inverse:hover,
   .btn-transparent.inverse:focus,
   .btn-transparent.inverse:active,
   .btn-transparent.inverse.active {
     background: #fff;
-    color: #1115f8;
+    color: $bgColor;
+    text-decoration: underline;
   }
-  .btn-outline {
-    color: #5b5efa;
+/*   .btn-outline {
+    color: $bgColor;
     border: none;
-    box-shadow: inset 0 0 0 2px #5b5efa;
+    box-shadow: inset 0 0 0 2px $bgColor;
     font-weight: 400;
     font-size: 16px;
   }
@@ -143,4 +141,4 @@
   p + .btn {
     margin-top: 25px;
     margin-bottom: 55px;
-  }
+  } */

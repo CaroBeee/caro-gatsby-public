@@ -7,14 +7,13 @@ body {
     background-color: #017cbd;
   }
   a {
-    -webkit-transition: all 0.35s;
-    -moz-transition: all 0.35s;
+
     transition: all 0.35s;
     color: #017cbd;
   }
   a:hover,
   a:focus {
-    color: #2a2df8;
+    color: $primaryColor;
   }
   hr {
     width: 65px;
@@ -36,91 +35,17 @@ body {
     color:$textColor;
   }
   .main-container {
-    //margin-top: 40px;
+
     border: 15px solid $secondaryColor;
     background-color: #fff;
   }
-  .main-container .offset-lt {
-    padding-right: 30px;
-  }
-  .main-container .offset-rt {
-    padding-left: 30px;
-  }
-  .main-container .extra-offset {
-    padding-left: 45px;
-  }
-  .main-container .extra-offset-md {
-    padding-left: 95px;
-  }
-  .main-container .extra-offset-minus {
-    margin-left: -48px;
-  }
-  .main-container .extra-offset-lg {
-    padding-left: 80px;
-  }
-  @media all and (max-width: 1023px) {
-    .main-container .col-md-5 + .col-md-5 {
-      margin-top: 40px;
-    }
-    .main-container .offset-lt {
-      padding-right: 15px;
-    }
-    .main-container .offset-rt {
-      padding-left: 15px;
-    }
-  }
+
   @media all and (min-width: 768px) and (max-width: 1023px) {
     .main-container {
       padding: 0 40px;
     }
   }
-  @media all and (max-width: 1069px) {
-    .main-container .extra-offset {
-      padding-left: 40px;
-    }
-    .main-container .extra-offset-md {
-      padding-left: 95px;
-    }
-    .main-container .extra-offset-minus {
-      margin-left: -48px;
-    }
-    .main-container .extra-offset-lg {
-      padding-left: 40px;
-    }
-  }
-  /*------------------------------------------*/
-  /*	 Bootstrap Overrides
-  /*------------------------------------------*/
-  .icon {
-    margin-bottom: 10px;
-  }
-  .icon [class^="icon-"],
-  .icon [class*=" icon-"] {
-    font-size: 45px;
-  }
-  .no-gutter > [class*='col-'] {
-    padding-right: 0;
-    padding-left: 0;
-  }
-  @media (min-width: 1200px) {
-    .container {
-      width: 1220px;
-    }
-    .container-fluid {
-      padding-right: 25px;
-      padding-left: 25px;
-    }
-  }
-  @media (max-width: 767px) {
-    .container {
-      padding-right: 20px;
-      padding-left: 20px;
-    }
-    .container > .row {
-      margin: 0 -20px;
-    }
-  }
-    /*------------------------------------------*/
+   /*------------------------------------------*/
   /*	 Bulma Overrides/extentions
   /*------------------------------------------*/
 
@@ -178,24 +103,5 @@ body {
     color: white;
     background: transparent;
   }
-  body {
-    webkit-tap-highlight-color: #222222;
-  }
-  /*------------------------------------------*/
-  /*	 Parallax
-  /*------------------------------------------*/
-  .home {
-    position: relative;
-    overflow: hidden;
-  }
-  .home > .bg-image-placer {
-    height: 100%;
-    min-height: 100vh;
-    top: 0px;
-    transition: opacity .3s linear;
-    -webkit-transition: opacity .3s linear;
-    transition: opacity 0.3s ease !important;
-    -webkit-transition: opacity 0.3s ease !important;
-    -webkit-transform-style: preserve-3d;
-  }
-  
+
+ 
