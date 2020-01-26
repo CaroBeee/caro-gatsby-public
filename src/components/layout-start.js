@@ -17,7 +17,7 @@ import NavVert from "./nav-vertical"
 import AboutMe from "./aboutMe"
 import Skills from "./skills/skills"
 import Work from "./work"
-//import Portfolio from "./portfolio/portfolio"
+import PortfolioToSite from "./portfolio/portfolio-toSite"
 import Contact from "./contact"
 import Footer from "./footer"
 
@@ -43,6 +43,7 @@ const LayoutStart = ({ children }) => {
       site {
         siteMetadata {
           title
+          author
         }
       }
     }
@@ -58,14 +59,14 @@ const LayoutStart = ({ children }) => {
      
         <main id="main">
         <div className="main-container container">
-        <Header siteTitle={data.site.siteMetadata.title}  />
+        <Header siteTitle={data.site.siteMetadata.author}  />
         <AboutMe/>
          <Skills/>
          <Work/>
-         <LoadableComponent/>
-         <Contact/>
+        <PortfolioToSite/>
         
-          </div>
+         <Contact/>
+                  </div>
           <Footer/>
           {children}
         </main>

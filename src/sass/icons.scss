@@ -2,8 +2,19 @@
   7. ICONS -- styles that controls the  icons
 ========================================================================== */
 
+  .sw-icons {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    @include desktop {
+      flex-wrap: nowrap;
+    }
+  }
 
   .sw-icon {
-    max-height:25px;
-    max-width:50px;
+    
+    max-width:45px;
+    padding:5px;
+    
   }

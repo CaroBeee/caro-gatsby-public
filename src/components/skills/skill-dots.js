@@ -10,7 +10,7 @@ class SkillDots extends React.Component {
           <h2 className="title">Fähigkeiten</h2>
           <hr />
           <p>
-           Was ich besonders gut kann und mit Spaß macht.
+           Was ich besonders gut kann und mir Spaß macht.
           </p>
           <ul className="skill-dots" id="skill-dots">
            <SkillDotsItem title="HTML5/CSS" score="9"/>

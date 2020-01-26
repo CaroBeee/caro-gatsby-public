@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-
 class Contact extends React.Component {
     
     render() {
@@ -15,18 +14,18 @@ class Contact extends React.Component {
         <div className="column is-10 is-offset-1 ">
           <h2 className="title">Kontakt</h2>
           <hr />
-          <p>Ich bin über Linked und Xing erreichbar, aber auch gerne über E-Mail.</p>
+          <p>Ich bin über LinkedIn und Xing erreichbar, aber auch gerne über E-Mail.</p>
           </div>
           </div>
           <div className="columns is-centered">
           <div className="column is-one-quarter ">
           <ul className="social-links social-border">
           <li className="linkdin">
-            <FontAwesomeIcon className="sm-icon" icon={[ 'fab', 'linkedin']} ></FontAwesomeIcon>
-            
+           
+            <a href="https://www.linkedin.com/in/carolin-behler-26b2b9a3/" title="Zu LinkedIn"> <FontAwesomeIcon className="sm-icon" icon={[ 'fab', 'linkedin']} ></FontAwesomeIcon></a>
             </li>
             <li className="xing">
-            <FontAwesomeIcon className="sm-icon" icon={[ 'fab', 'xing']} ></FontAwesomeIcon>
+            <a href="https://www.xing.com/profile/Carolin_Behler/cv" title="Zu Xing"><FontAwesomeIcon className="sm-icon" icon={[ 'fab', 'xing']} ></FontAwesomeIcon></a>
              
             </li>
             {/* <li className="google-plus">

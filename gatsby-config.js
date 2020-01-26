@@ -1,9 +1,19 @@
+const {
+  NODE_ENV,
+  URL: NETLIFY_SITE_URL = 'https://www.carobehler.de',
+  DEPLOY_PRIME_URL: NETLIFY_DEPLOY_URL = NETLIFY_SITE_URL,
+  CONTEXT: NETLIFY_ENV = NODE_ENV
+} = process.env;
+const isNetlifyProduction = NETLIFY_ENV === 'production';
+const siteUrl = isNetlifyProduction ? NETLIFY_SITE_URL : NETLIFY_DEPLOY_URL;
+
 module.exports = {
   siteMetadata: {
-    title: `Caro Behler`,
+    title: `Caro Behler - Creative UI Developer`,
     description: `Caro Behler ist Webentwicklerin (Web-Developer). Die Fähigkeiten und das Portfolio findet man hier. `,
     author: `Caro Behler`,
-    url:"https://carobehler.de",
+    url:"https://www.carobehler.de",
+    siteUrl:"https://www.carobehler.de",
     image:"/img/cubephoto.jpg"
   },
   plugins: [
@@ -25,13 +35,36 @@ module.exports = {
       }
     }, */
     {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        resolveEnv: () => NETLIFY_ENV,
+        env: {
+          production: {
+            policy: [{ userAgent: '*' }]
+          },
+          'branch-deploy': {
+            policy: [{ userAgent: '*', disallow: ['/'] }],
+            sitemap: null,
+            host: null
+          },
+          'deploy-preview': {
+            policy: [{ userAgent: '*', disallow: ['/'] }],
+            sitemap: null,
+            host: null
+          }
+        }
+      }
+    },
+   `gatsby-plugin-sitemap`,
+    
+    {
       resolve: `gatsby-plugin-webfonts`,
       options: {
         fonts: {
           google: [
             {
               family: "Raleway",
-              variants: ["900", "100", "200","300", "400", "500", "600", "700", "800"],
+              variants: [ "100", "200","300", "400", "500", "600", "700", "800", "900"],
               strategy: 'selfHosted' ,
               fontDisplay: 'swap'
             },

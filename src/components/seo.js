@@ -29,39 +29,54 @@ const SEO = ({ description, lang, meta, title }) => {
   )
 
   const metaDescription = description || site.siteMetadata.description
+  const metaTitle = title || site.siteMetadata.title
 
   return (
+    <>
     <Helmet
       htmlAttributes={{
         lang,
       }}
       title={title}
-      titleTemplate={`%s | ${site.siteMetadata.title}`}
+      titleTemplate={site.siteMetadata.title}
       meta={[
         {
           name: `description`,
           content: metaDescription,
         },
         {
+          property: `image`,
+          content: site.siteMetadata.image,
+        },
+        {
           property: `og:title`,
-          content: title,
+          content: metaTitle,
         },
         {
           property: `og:description`,
           content: metaDescription,
         },
         {
+          property: `og:image`,
+          content: site.siteMetadata.image,
+        },
+        {
           property: `og:type`,
           content: `website`,
+        },
+        {
+          name: `robots`,
+          content: "nofollow",
         },
       
        
       ].concat(meta)}
     >
-       <meta charSet="utf-8" />
        <link rel="icon" href={favicon} />
-       <link rel="canonical" href="https://www.carobehler.de" />
+      
+
     </Helmet>
+    </>
   )
 }
 

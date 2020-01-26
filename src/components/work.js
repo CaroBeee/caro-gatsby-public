@@ -48,7 +48,7 @@ class Work extends React.Component {
                 <h3 className="company">CBC - RTL Mediengruppe</h3>
                 <p className="designation">Technische Assistentin</p>
                 <p className="description">
-                Qualitätskontrolle für die Mediengruppe Deutschland (RTL, RTL Nitro, VOX, Digitale Sparten)
+                Qualitätskontrolle für die Mediengruppe Deutschland (RTL, RTL Nitro, VOX, Digitale Sparten).
 Technisch qualitative Prüfung und Abnahme von Sendematerial.
                 </p>
               </div>

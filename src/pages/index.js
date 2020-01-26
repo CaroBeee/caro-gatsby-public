@@ -1,5 +1,4 @@
-import React, { Component } from "react"
-import { Link } from "gatsby"
+import React from "react"
 import SEO from "../components/seo"
 import LayoutStart from "../components/layout-start"
 
@@ -10,7 +9,7 @@ const IndexPage = () => (
 
 
   <LayoutStart>
-    <SEO title="Home" />
+    <SEO title="Caro Behler" />
 
   
   </LayoutStart>
