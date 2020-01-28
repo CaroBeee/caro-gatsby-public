@@ -6,13 +6,17 @@ class NavMobile extends React.Component {
 
     constructor(props) {
         super(props);
-        this.state = {addClass: false}
+        this.state = 
+        {addClass: false
+        
+        }
       }
       toggle() {
         this.setState({addClass: !this.state.addClass});
       }
+     
       render() {
-
+       
        
 
         return ( 
@@ -54,6 +58,7 @@ class NavMobile extends React.Component {
             smooth={true}
             offset={-70}
             duration={500}
+            onSetActive={this.handleSetActive}
           >
            Intro
           </Link>
@@ -64,6 +69,7 @@ class NavMobile extends React.Component {
             smooth={true}
             offset={-70}
             duration={500}
+            onSetActive={this.handleSetActive}
           >
            Skills
           </Link>
@@ -75,6 +81,7 @@ class NavMobile extends React.Component {
             smooth={true}
             offset={-70}
             duration={500}
+            onSetActive={this.handleSetActive}
           >
             Erfahrungen
           </Link>
@@ -86,6 +93,7 @@ class NavMobile extends React.Component {
             smooth={true}
             offset={-70}
             duration={500}
+            onSetActive={this.handleSetActive}
           >
             Portfolio
           </Link>
@@ -97,6 +105,7 @@ class NavMobile extends React.Component {
             smooth={true}
             offset={-70}
             duration={500}
+            onSetActive={this.handleSetActive}
           >
             Kontakt
           </Link>

@@ -22,10 +22,10 @@ class Contact extends React.Component {
           <ul className="social-links social-border">
           <li className="linkdin">
            
-            <a href="https://www.linkedin.com/in/carolin-behler-26b2b9a3/" title="Zu LinkedIn"> <FontAwesomeIcon className="sm-icon" icon={[ 'fab', 'linkedin']} ></FontAwesomeIcon></a>
+            <a href="https://www.linkedin.com/in/carolin-behler-26b2b9a3/" title="Zu LinkedIn"> <FontAwesomeIcon title="Zu LinkedIn" className="sm-icon" icon={[ 'fab', 'linkedin']} ></FontAwesomeIcon></a>
             </li>
             <li className="xing">
-            <a href="https://www.xing.com/profile/Carolin_Behler/cv" title="Zu Xing"><FontAwesomeIcon className="sm-icon" icon={[ 'fab', 'xing']} ></FontAwesomeIcon></a>
+            <a href="https://www.xing.com/profile/Carolin_Behler/cv" title="Zu Xing"><FontAwesomeIcon  title="Zu Xing" className="sm-icon" icon={[ 'fab', 'xing']} ></FontAwesomeIcon></a>
              
             </li>
             {/* <li className="google-plus">

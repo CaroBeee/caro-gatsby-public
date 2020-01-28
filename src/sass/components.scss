@@ -43,10 +43,10 @@ ul.profile-information {
   }
 
   li {
-    border-left: solid 2px #eee;
+    border-left: solid 2px $gray;
     padding: 0 0 23px 20px;
     font-size: 14px;
-    color: #787878;
+    color: $textColor;
 
     &:before {
       content: "";
@@ -125,7 +125,7 @@ ul.skill {
         content: "";
         display: block;
         position: absolute;
-        background: #eeeeee;
+        background: $gray;
         bottom: 0;
       }
     }
@@ -137,7 +137,7 @@ ul.skill {
       font-weight: 400;
       letter-spacing: 1.2px;
       text-transform: uppercase;
-      color: #1f1f29;
+      color: $textColor;
     }
   }
 
@@ -197,7 +197,7 @@ ul.skill {
       font-weight: 400;
       letter-spacing: 1.2px;
       text-transform: uppercase;
-      color: #1f1f29;
+      color: $textColor;
     }
 
     .skill-progress {
@@ -206,7 +206,7 @@ ul.skill {
       i {
         margin-right: 10px;
         vertical-align: inherit;
-        background-color: #eeeeee;
+        background-color: $gray;
         border-radius: 50%;
         display: inline-block;
         width: 12px;
@@ -247,7 +247,7 @@ ul.skill {
       bottom: 0px;
       display: block;
       width: 4px;
-      border-left: dashed 1px #897f8a;
+      border-left: dashed 1px $darkgray;
     }
 
     .timeline-entry {
@@ -313,7 +313,7 @@ ul.skill {
       font-size: 15px;
       font-weight: 700;
       line-height: 24px;
-      color: #424250;
+      color: $textColor;
     }
 
     p.designation {
@@ -381,7 +381,7 @@ ul.skill {
     
   
       .card-image {
-        background-color: #eee;
+        background-color: $gray;
       }
   
       .cats {

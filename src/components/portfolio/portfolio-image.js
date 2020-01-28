@@ -17,7 +17,7 @@ const PortfolioImage =  (props) => {
     const data = useStaticQuery(graphql`
     query {
       images:
-      allFile(filter: { relativeDirectory: {eq: "portfolio/projekte"}}) {
+      allFile(sort: {fields: name}, filter: {relativeDirectory: {eq: "portfolio/projekte"}}) {
         edges {
           node {
             base
@@ -39,13 +39,13 @@ const PortfolioImage =  (props) => {
     }
   `)
     return (
-      <div className="columns">     
+      <div className="columns is-multiline">     
       {data.images.edges
-      
+     
       .filter(({node}) => {
         return node.base.includes(props.project)
       })
-      
+          
       .map(({ node }, index) => (
 
         <div className="column" data-project={props.project}>

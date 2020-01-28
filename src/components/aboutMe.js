@@ -34,25 +34,25 @@ class AboutMe extends React.Component {
                   </li>
                   <li>
                     <p>
-                      <span>Beruf:</span><br />
+                      <span>Beruf</span><br />
                       Frontend-Entwicklerin
                     </p>
                   </li>
                   <li>
                     <p>
-                      <span>Geburtsdatum:</span><br />
+                      <span>Geburtsdatum</span><br />
                       25. März 1981
                     </p>
                   </li>
                   <li>
                     <p>
-                      <span>E-Mail:</span><br />
+                      <span>E-Mail</span><br />
                       hello@carobehler.de
                     </p>
                   </li>
                   <li>
                     <p>
-                      <span>Freizeit:</span><br />
+                      <span>Freizeit</span><br />
                       Haus, Garten, Kochen, Schlagzeug
                     </p>
                   </li>

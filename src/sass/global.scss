@@ -79,6 +79,27 @@ body {
   font-size:1.25em;
 }
 
+.notification {
+
+  margin:30px 0;
+
+  &.is-primary {
+    background-color: $primaryColor;
+  }
+}
+
+.button {
+
+  &.is-link {
+    background-color: $primaryColor;
+
+    &:hover {
+      background-color: lighten($primaryColor, 5%);
+    }
+  }
+  }
+
+
 
 
 

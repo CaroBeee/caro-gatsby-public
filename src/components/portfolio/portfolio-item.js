@@ -39,13 +39,27 @@ class PortfolioItem extends Component {
 
   render() {
 
- 
+    
+
      const Techs  = () => (
-      this.props.tech.map(function(techs, i){
+   
+      this.props.tech && this.props.tech.map(function(techs, i){
         return (
           <span className="tag">{techs}</span>
         );
       })
+     
+    ) 
+  
+
+    const Awards  = () => (
+    
+      this.props.award && this.props.award.map(function(awards, i){
+        return (   
+          <p className="title">{awards}</p>
+        );
+      })
+     
     ) 
 
    
@@ -145,7 +159,9 @@ class PortfolioItem extends Component {
   <div className="level-item has-text-centered">
     <div>
       <p className="heading">Award</p>
-      <p className="title">{this.props.award}</p>
+     
+     <Awards/>
+
     </div>
   </div>
 </nav>

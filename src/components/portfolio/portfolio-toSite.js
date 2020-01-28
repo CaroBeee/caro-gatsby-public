@@ -10,9 +10,9 @@ class PortfolioToSite extends Component {
 
     const content = { message: "", login: true }
     if (isLoggedIn()) {
-      content.message = `Hello, ${getUser().name}`
+      content.message = `Hallo, ${getUser().name}`
     } else {
-      content.message = "You are not logged in"
+      content.message = "Dies ist ein passwortgeschützter Bereich. Du bist aktuell nicht angemeldet."
     }
 
     return (
@@ -21,12 +21,27 @@ class PortfolioToSite extends Component {
           <h2 className="title">PORTFOLIO</h2>
           <hr />
           <div className="columns is-centered">
-          <p>{content.message}</p>
+          <div className="notification is-primary">
+ 
+  {content.message}
+</div>
+
+
+          
+          </div>
+          <div className="columns is-centered">
+         
+              <div className="column">
          <Link to="/portfolio/" className="button" >Zum Portfolio</Link>
           {` `}
+          </div>
+         
         {isLoggedIn() ? (
-          <a
+           <div className="columns is-centered">
+              <div className="column">
+         <a
             href="/"
+            className="button is-link is-small"
             onClick={event => {
               event.preventDefault()
               logout(() => navigate(`/`))
@@ -34,6 +49,8 @@ class PortfolioToSite extends Component {
           >
             Logout
           </a>
+          </div>
+          </div>
         ) : null}
           </div>
          

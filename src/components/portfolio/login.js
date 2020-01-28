@@ -26,7 +26,11 @@ class Login extends React.Component {
 
     return (
       <>
-        <h1>Log in</h1>
+       <div className="columns is-centered">
+        <h1 className="title">Log in</h1>
+       </div>
+       <div className="columns is-centered">
+          <div className="column is-4">
         <form
           method="post"
           onSubmit={event => {
@@ -34,20 +38,33 @@ class Login extends React.Component {
             navigate(`/portfolio/portfolio`)
           }}
         >
-          <label>
-            Username
-            <input type="text" name="username" onChange={this.handleUpdate} />
-          </label>
-          <label>
-            Password
-            <input
+          <div class="field">
+  <label class="label"> Username</label>
+  <div class="control">
+  <input className="input" type="text" name="username" onChange={this.handleUpdate} />
+  </div>
+</div>
+<div class="field">
+  <label class="label">Password</label>
+  <div class="control">
+  <input className="input"
               type="password"
               name="password"
               onChange={this.handleUpdate}
             />
-          </label>
-          <input type="submit" value="Log In" />
+  </div>
+</div>
+          
+<div class="field is-grouped">
+  <div class="control">
+    <button class="button is-link" type="submit">Login</button>
+  </div>
+  </div>
+         
         </form>
+        </div>
+        </div>
+      
       </>
     )
   }

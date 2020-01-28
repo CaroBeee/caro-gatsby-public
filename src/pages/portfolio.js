@@ -7,7 +7,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import PrivateRoute from "../components/portfolio/privateRoute"
 import Login from "../components/portfolio/login"
-//import Portfolio from "../components/portfolio/portfolio"
+import Portfolio from "../components/portfolio/portfolio"
 
 const LoadableComponent = Loadable({
   loader: () => import("../components/portfolio/portfolio"),
@@ -19,26 +19,41 @@ const LoadableComponent = Loadable({
 const PagePortfolio = () => (
   <Layout>
       <SEO title="Portfolio" />
-      <h1>Hello {isLoggedIn() ? getUser().name : "world"}!</h1>
-      <p>
+      <div className="columns is-centered">
+        <div className="column is-4">
+        <h1 className="title has-text-centered">Hallo {isLoggedIn() ? getUser().name : "Nutzer"}!</h1>
+      
+      <p className="has-text-centered">
       {isLoggedIn() ? (
         <>
-          You are logged in, so check my Portfolio.
+          Du bist jetzt angemeldet. Hier ist mein Portfolio.
           {/* <Link to="/portfolio/portfolio">Portfolio</Link> */}
         </>
       ) : (
         <>
-          You should <Link to="/portfolio/login">log in</Link> to see restricted
-          content
+          
+          Du musst <Link to="/portfolio/login">angemeldet</Link> sein, um mein Portfolio anzuschauen. 
         </>
       )}
+        <Link to="/" > Zurück zur Startseite.</Link>
     </p>
-    <Link to="/">Zurück zur Startseite</Link>
+   
+  
+        </div>
+     
+      </div>
+     
+   
+  
     <Router>
-  <PrivateRoute path="/portfolio/portfolio" component={LoadableComponent} />
+  <PrivateRoute path="/portfolio/portfolio" component={Portfolio} />
       <Login path="/portfolio/login" />
     </Router>
-    
+    <div className="columns is-centered">
+      <div className="column is-4">
+    <Link to="/" className="button">Zurück zur Startseite</Link>
+    </div>
+    </div>
   </Layout>
 )
 
