@@ -7,7 +7,6 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import PrivateRoute from "../components/portfolio/privateRoute"
 import Login from "../components/portfolio/login"
-import Portfolio from "../components/portfolio/portfolio"
 
 const LoadableComponent = Loadable({
   loader: () => import("../components/portfolio/portfolio"),
@@ -46,7 +45,7 @@ const PagePortfolio = () => (
    
   
     <Router>
-  <PrivateRoute path="/portfolio/portfolio" component={Portfolio} />
+  <PrivateRoute path="/portfolio/portfolio" component={LoadableComponent} />
       <Login path="/portfolio/login" />
     </Router>
     <div className="columns is-centered">
