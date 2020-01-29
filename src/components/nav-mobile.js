@@ -1,5 +1,5 @@
-import React, {Component} from 'react';
-import { Link, animateScroll as scroll } from "react-scroll"
+import React from 'react';
+import { Link} from "react-scroll"
 import logo from "../img/svg/Logo_CB.svg"
 
 class NavMobile extends React.Component {
@@ -12,6 +12,10 @@ class NavMobile extends React.Component {
         }
       }
       toggle() {
+        this.setState({addClass: !this.state.addClass});
+      }
+      hideMenu() {
+    
         this.setState({addClass: !this.state.addClass});
       }
      
@@ -34,9 +38,10 @@ class NavMobile extends React.Component {
            
         <a
           role="button"
-          onClick={ this.toggle.bind(this) } 
+          onClick={ this.toggle.bind(this) }  onKeyDown={this.toggle.bind(this)}
           className= {this.state.addClass ? "navbar-burger burger is-active" : "navbar-burger burger"}
           aria-label="menu"
+          tabIndex={0}
           aria-expanded="false"
           data-target="navbarBasicExample"
          
@@ -58,7 +63,9 @@ class NavMobile extends React.Component {
             smooth={true}
             offset={-70}
             duration={500}
-            onSetActive={this.handleSetActive}
+            onClick={this.hideMenu.bind(this) }
+            onKeyDown={this.hideMenu.bind(this)}
+           
           >
            Intro
           </Link>
@@ -69,7 +76,8 @@ class NavMobile extends React.Component {
             smooth={true}
             offset={-70}
             duration={500}
-            onSetActive={this.handleSetActive}
+            onClick={this.hideMenu.bind(this) }
+            onKeyDown={this.hideMenu.bind(this)}
           >
            Skills
           </Link>
@@ -81,7 +89,8 @@ class NavMobile extends React.Component {
             smooth={true}
             offset={-70}
             duration={500}
-            onSetActive={this.handleSetActive}
+            onClick={this.hideMenu.bind(this) }
+            onKeyDown={this.hideMenu.bind(this)}
           >
             Erfahrungen
           </Link>
@@ -93,7 +102,8 @@ class NavMobile extends React.Component {
             smooth={true}
             offset={-70}
             duration={500}
-            onSetActive={this.handleSetActive}
+            onClick={this.hideMenu.bind(this) }
+            onKeyDown={this.hideMenu.bind(this)}
           >
             Portfolio
           </Link>
@@ -105,7 +115,8 @@ class NavMobile extends React.Component {
             smooth={true}
             offset={-70}
             duration={500}
-            onSetActive={this.handleSetActive}
+            onClick={this.hideMenu.bind(this) }
+            onKeyDown={this.hideMenu.bind(this)}
           >
             Kontakt
           </Link>

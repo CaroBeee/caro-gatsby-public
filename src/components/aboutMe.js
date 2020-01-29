@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import Image from "../components/image"
 import svgVSC from '../img/icons/Visual_Studio_Code_1.18_icon.svg';
 import svgPhpstorm from '../img/icons/phpstorm.svg';
@@ -72,10 +72,10 @@ class AboutMe extends React.Component {
             Zum <strong>Coden</strong> kam ich erst später, meine Wege führten mich erst zum <strong>Ton</strong> (Frankfurt/ Berlin), dann zum <strong>Bild</strong> (Berlin), dann zum <strong>technischen Part</strong> von beidem im Bachelorstudium (Düsseldorf) bis ich dann meinen Master in Medieninformatik (auch in Düsseldorf) absolvierte und mich in meinem Developer-Dasein richtig zu Hause fühle. Sitze ich nicht am Rechner, bin ich im Keller - am Schlagzeug.😊 Aber ganz weit oben steht meine kleine Familie.😍
             </p>
             <p>Schon früh habe ich gemerkt und dazu gedrängt, dass alle Teammitglieder (Konzepter, Designer, Entwickler) von Anfang an im Projekt gleichermaßen miteingebunden werden sollten. 
-Die Zeit, dass der Entwickler darauf wartet bis der Designer das Layout auf den Tisch legt und sagt: „So, jetzt kannst du loslegen.“ ist vorbei. Das Verständnis sowohl in der Ideenentwicklung, der Konzeption, das Design und schlussendlich die Umsetzung des Designs auf technischer Ebene muss bei allen Projektteams gleichermaßen sein.
+Die Zeit, dass der Entwickler darauf wartet bis der Designer das Layout auf den Tisch legt und sagt: „So, jetzt kannst du loslegen.“ ist vorbei. Das Verständnis sowohl in der Ideenentwicklung, der Konzeption, dem Design und schlussendlich die Umsetzung des Designs auf technischer Ebene muss bei allen Projektmitgliedern gleichermaßen sein. Für mich ist eine enge Verzahnung zwischen Design und Entwicklung eine Selbstverständlichkeit.
 </p>
 <p>Eine effektive Vorgehensweise der Ideengenerierung wäre <strong>Design-Thinking</strong>. Diese kann neue Denkanstöße im gesamten Team fördern.
-Für mich ist eine enge Verzahnung zwischen Design und Entwicklung eine Selbstverständlichkeit.
+
 
 </p>
 <p><a href="https://bradfrost.com/blog/post/atomic-web-design/" title="Link zu atomic design"><strong>Atomic Design System</strong></a> (Brad Forst) kann schon im Design-Prozess angewendet und anschließend in der Entwicklung übernommen werden. Das spart Zeit und Aufwand bei Erneuerungen oder Ergänzungen.</p>

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import SkillBar from "./skill-bar"
 import SkillDots from "./skill-dots"
 
-class Skills extends React.Component {
+class Skills extends Component {
     
     render() {
       return ( 

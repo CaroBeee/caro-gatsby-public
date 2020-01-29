@@ -1,3 +1,4 @@
+import { hot } from 'react-hot-loader/root';
 import React from "react"
 import SEO from "../components/seo"
 import LayoutStart from "../components/layout-start"
@@ -16,4 +17,4 @@ const IndexPage = () => (
 
 
 )
-export default IndexPage
+export default hot(IndexPage)

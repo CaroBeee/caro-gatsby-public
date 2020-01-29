@@ -1,7 +1,6 @@
 import React, { Component } from "react"
 import Modal from "../modal"
 import PortfolioImage from "./portfolio-image"
-import PortfolioImageTeaser from "./portfolio-image-teaser"
 import PortfolioImageMockup from "./portfolio-image-mockup"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
@@ -76,6 +75,8 @@ class PortfolioItem extends Component {
           data-target={"modal-" + this.props.meta}
           title={this.props.title}
           onClick={this.toggleModal}
+          onKeyDown={this.toggleModal}
+          role= "button" tabIndex={0}
         >
           
 

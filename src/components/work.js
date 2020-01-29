@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class Work extends React.Component {
+class Work extends Component {
     
     render() {
       return ( 

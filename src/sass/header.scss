@@ -3,36 +3,27 @@
 ========================================================================== */
 .header {
     position: relative;
-    height: 510px;
+    height: 385px;
     padding: 60px 0 0 0px;
-    /* background-image: url('../img/header_bg.jpg'); */
-    background-position: right top;
-    background-size: 100%;
-    background-repeat: no-repeat;
     overflow: hidden;
-  }
-  @media all and (max-width: 1023px) {
-    .header {
-      background-size: cover;
+
+    @include desktop {
+      height: 510px;
     }
+  
   }
 
-  .header .header-overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    /* height: 240px;
-    background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.29) 23%, #ffffff 78%);
-    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.29) 23%, #ffffff 78%);
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.29) 23%, #ffffff 78%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#ffffff', GradientType=0); */
-  }
+
+
   .header .resume-title {
     position: absolute;
     bottom: 72px;
-    width: calc(100% - 150px);
+    width: 100%;
     z-index: 2;
+
+    @include desktop {
+      width: calc(100% - 150px);
+    }
 
     h2 {
       font-size: 45px;
@@ -71,10 +62,14 @@
 
     .border {
       width: 100%;
-      max-width: 290px;
+      max-width: 208px;
       height: 4px;
       margin-right: 25px;
       background-color: $primaryColor;
+
+      @include desktop {
+        max-width: 290px;
+      }
     }
   
   }

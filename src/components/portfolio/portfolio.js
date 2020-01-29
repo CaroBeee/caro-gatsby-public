@@ -7,9 +7,6 @@ import bulmaCarousel from "../../../node_modules/bulma-carousel/dist/js/bulma-ca
 
 
 class Portfolio extends Component {
-  constructor(props) {
-    super(props)
-  }
 
   componentDidMount() {
     // Initialize all elements with carousel class.

@@ -38,15 +38,15 @@ class Login extends React.Component {
             navigate(`/portfolio/portfolio`)
           }}
         >
-          <div class="field">
-  <label class="label"> Username</label>
-  <div class="control">
+          <div className="field">
+  <label className="label" htmlFor="username"> Username</label>
+  <div className="control">
   <input className="input" type="text" name="username" onChange={this.handleUpdate} />
   </div>
 </div>
-<div class="field">
-  <label class="label">Password</label>
-  <div class="control">
+<div className="field">
+  <label className="label" htmlFor="password">Password</label>
+  <div className="control">
   <input className="input"
               type="password"
               name="password"
@@ -55,9 +55,9 @@ class Login extends React.Component {
   </div>
 </div>
           
-<div class="field is-grouped">
-  <div class="control">
-    <button class="button is-link" type="submit">Login</button>
+<div className="field is-grouped">
+  <div className="control">
+    <button className="button is-link" type="submit">Login</button>
   </div>
   </div>
          

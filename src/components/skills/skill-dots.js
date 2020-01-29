@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import SkillDotsItem from "./skill-dots-item";
 
 class SkillDots extends React.Component {

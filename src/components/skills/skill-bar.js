@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import SkillBarItem from "./skill-bar-item";
 
 const SkillBar = (props) => {
