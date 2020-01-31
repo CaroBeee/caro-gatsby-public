@@ -10,7 +10,7 @@ class PortfolioToSite extends Component {
 
     const content = { message: "", login: true }
     if (isLoggedIn()) {
-      content.message = `Hallo, ${getUser().name}`
+      content.message = `Hallo, ${getUser().name}!`
     } else {
       content.message = "Dies ist ein passwortgeschützter Bereich. Du bist aktuell nicht angemeldet."
     }
@@ -23,19 +23,16 @@ class PortfolioToSite extends Component {
           <div className="columns is-vcentered">
             <div className="column">
             <div className="notification is-primary">
- 
+         
  {content.message}
-</div>
-            </div>
-            <div className="column">
-            {isLoggedIn() ? (
+ {isLoggedIn() ? (
            
            <a
               href="/"
-              className="button is-link is-outlined is-small"
+              className="button is-inverted is-link is-fullwidth"
               onClick={event => {
                 event.preventDefault()
-                logout(() => navigate(`/`))
+                logout(() => navigate(`/#portfolio`))
               }}
             >
               Logout
@@ -43,7 +40,9 @@ class PortfolioToSite extends Component {
            
             
           ) : null}
+</div>
             </div>
+           
           
 
 
@@ -52,7 +51,13 @@ class PortfolioToSite extends Component {
           <div className="columns">
          
               <div className="column">
-         <Link to="/portfolio/" className="button" >Zum Portfolio</Link>
+              {isLoggedIn() ? (
+           
+           <Link to="/portfolio/portfolio" className="button" >Zum Portfolio</Link>
+           
+            
+          ) :  <Link to="/portfolio/" className="button" >Zum Portfolio</Link>}
+        
           {` `}
           </div>
          

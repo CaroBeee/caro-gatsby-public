@@ -56,9 +56,22 @@ Technisch qualitative Prüfung und Abnahme von Sendematerial.
           </div>
         </div>
         <div className="column is-5 is-offset-1">
-          <h2 className="title">Ausbildung</h2>
+          <h2 className="title">Aus-/Weiterbildung</h2>
           <hr />
           <div className="timeline-centered">
+          <article className="timeline-entry">
+              <div className="timeline-entry-inner">
+                <div className="timeline-icon"></div>
+                <div className="timeline-label">
+                  August 2019 - November 2019
+                </div>
+                <h3 className="company">Design Thinking</h3>
+                <p className="designation">Dark Horse Innovation</p>
+                <p className="description">
+                  Weiterbildung Design Thinking Professional
+                </p>
+              </div>
+            </article>
             <article className="timeline-entry">
               <div className="timeline-entry-inner">
                 <div className="timeline-icon"></div>

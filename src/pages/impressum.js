@@ -9,9 +9,9 @@ const Impressum = () => (
     <SEO title="Impressum" />
   
     <div className="content">
-    <section class="hero">
-  <div class="hero-body">
-    <div class="container">
+    <section className="hero">
+  <div className="hero-body">
+    <div className="container">
     <h1 className="title has-text-centered">Impressum</h1>      
     </div>
   </div>

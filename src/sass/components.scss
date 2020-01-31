@@ -338,7 +338,6 @@ ul.skill {
   
     .card {
     
-      width: 100%;
       margin-bottom: 10px;
       padding: 0px;
       border-radius:6px;  
@@ -396,9 +395,13 @@ ul.skill {
   
       .card-footer {
        
-        padding:8px 10px 0;
+        padding: 0.5rem 1.5rem;
         border: none;
-        justify-content: space-between;
+      
+       
+       
+
+        margin-top:auto;
   
         .highlights {
           color: $textColor;
@@ -410,6 +413,12 @@ ul.skill {
          
        
         }
+
+        .card-footer-item {
+            border:none;
+            padding:0;
+            justify-content: flex-end ;
+        }
       }
   
     
@@ -419,6 +428,28 @@ ul.skill {
 
   .portfolioContainer.carousel {
     overflow: hidden;
+
+    %slider-navigation {
+      background: transparent;
+    color: $primaryColor;
+    border: none;
+    box-shadow: none;
+
+    svg {
+      width: 30%;
+    }
+    }
+
+    .slider-navigation-previous {
+     @extend %slider-navigation;
+     left: -13px;
+  
+    }
+    .slider-navigation-next {
+      @extend %slider-navigation;
+      right: -13px;
+     
+     }
   }
 
 

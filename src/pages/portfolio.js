@@ -19,7 +19,7 @@ const PagePortfolio = () => (
   <Layout>
       <SEO title="Portfolio" />
       <div className="columns is-centered">
-        <div className="column is-4">
+        <div className="column is-6">
         <h1 className="title has-text-centered">Hallo {isLoggedIn() ? getUser().name : "Nutzer"}!</h1>
       
       <p className="has-text-centered">
@@ -31,10 +31,12 @@ const PagePortfolio = () => (
       ) : (
         <>
           
-          Du musst <Link to="/portfolio/login">angemeldet</Link> sein, um mein Portfolio anzuschauen. 
+          Du musst angemeldet sein, um mein Portfolio anzuschauen.
+          <br></br>
+        <Link className="button is-link is-small" to="/portfolio/login">Login</Link>
         </>
       )}
-        <Link to="/" > Zurück zur Startseite.</Link>
+        <br></br><Link to="/" > Zurück zur Startseite.</Link>
     </p>
    
   
@@ -48,11 +50,7 @@ const PagePortfolio = () => (
   <PrivateRoute path="/portfolio/portfolio" component={LoadableComponent} />
       <Login path="/portfolio/login" />
     </Router>
-    <div className="columns is-centered">
-      <div className="column is-4">
-    <Link to="/" className="button">Zurück zur Startseite</Link>
-    </div>
-    </div>
+   
   </Layout>
 )
 

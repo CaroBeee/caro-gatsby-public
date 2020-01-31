@@ -105,7 +105,7 @@ class NavMobile extends React.Component {
             onClick={this.hideMenu.bind(this) }
             onKeyDown={this.hideMenu.bind(this)}
           >
-            Portfolio
+            Portfolio <span className="is-size-7">(Passwortgeschützt)</span>
           </Link>
 
           <Link

@@ -15,10 +15,10 @@ const SkillBar = (props) => {
           <div className="skill-wrapper">
            
             <ul className="skill" id="skills">
-             <SkillBarItem name="Kommunikation" width="80"/>
+             <SkillBarItem name="Kommunikation" width="90"/>
              <SkillBarItem name="Team work" width="95"/>
              <SkillBarItem name="Kreativität" width="80"/>
-             <SkillBarItem name="Eigeninitiative" width="85"/>
+             <SkillBarItem name="Eigeninitiative" width="95"/>
             </ul>
           </div>
         </div>

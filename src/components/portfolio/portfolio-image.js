@@ -40,7 +40,7 @@ const PortfolioImage =  (props) => {
           
       .map(({ node }, index) => (
 
-        <div className="column" data-project={props.project}>
+        <div key={index} className="column" data-project={props.project}>
         <Img fluid={node.childImageSharp.fluid} alt={props.title}/>
         </div>
       ))}
