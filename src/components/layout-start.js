@@ -17,6 +17,8 @@ import Work from "./work"
 import PortfolioToSite from "./portfolio/portfolio-toSite"
 import Contact from "./contact"
 import Footer from "./footer"
+import ScrollToTop from "./scrollToTop"
+
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -46,7 +48,9 @@ const LayoutStart = ({ children }) => {
      <NavMobile/>
     <NavVert/>
       
-     
+      
+
+        
         <main id="main">
         <div className="main-container container">
         <Header siteTitle={data.site.siteMetadata.author}  />
@@ -58,9 +62,10 @@ const LayoutStart = ({ children }) => {
          <Contact/>
                   </div>
           <Footer/>
+          <ScrollToTop/>
           {children}
         </main>
-      
+       
      
     </>
   )

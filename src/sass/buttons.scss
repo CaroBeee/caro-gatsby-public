@@ -50,4 +50,24 @@
   }
   }
 
+  .btn-scrolltop {
+    position: fixed;
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: $primaryColor;
+    color: #fff; 
+    cursor: pointer; 
+    padding: 9px 15px; 
+    border-radius: 4px; 
+    font-size: 18px; 
+
+    &:hover {
+      background-color: lighten($color: $primaryColor, $amount: 5);
+      color: #fff; 
+    }
+  }
+
 

@@ -6,11 +6,11 @@ class SkillDots extends React.Component {
     render() {
       return ( 
         
-          <div className="column is-5 col-md-5 offset-rt">
+          <div className="column is-6">
           <h2 className="title">Fähigkeiten</h2>
           <hr />
           <p>
-           Was ich besonders gut kann und mir Spaß macht.
+           Was ich besonders gut kann und mir das Herz aufgeht.
           </p>
           <ul className="skill-dots" id="skill-dots">
           <SkillDotsItem title="Responsive Web-Development" score="9"/>

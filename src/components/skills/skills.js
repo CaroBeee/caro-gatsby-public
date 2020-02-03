@@ -8,11 +8,12 @@ class Skills extends Component {
       return ( 
         <section
         id="skillset"
-        className="columns"
+        className="columns reverse-row-order"
       
       >
+         <SkillDots/>
         <SkillBar/>
-        <SkillDots/>
+       
       </section>
         )
     }

@@ -252,8 +252,12 @@ ul.skill {
 
     .timeline-entry {
       position: relative;
-      margin-bottom: 80px;
+      margin-bottom: 35px;
       clear: both;
+
+      @include desktop {
+        margin-bottom: 60px;
+      }
       
       &:last-child {
         margin-bottom: 0px;
@@ -284,7 +288,7 @@ ul.skill {
     .timeline-label {
       position: relative;
       background: $primaryColor;
-      padding: 0 13px;
+      padding: 2px 13px 0;
       margin-left: 10px;
       background-clip: padding-box;
       display: inline-block;
@@ -317,14 +321,14 @@ ul.skill {
     }
 
     p.designation {
-      margin-top: 0px;
       font-weight: 500;
       font-size: 12px;
       text-transform: uppercase;
+      margin: 0 0 15px;
     }
 
     p.description {
-      margin-top: 13px;
+      margin:0;
       word-break: break-all;
     }
   }
@@ -461,8 +465,12 @@ ul.skill {
   }
   
   .connect .social-links {
-    margin:50px auto 25px;
+    margin:0 auto 25px;
     text-align: center;
+
+    @include desktop {
+      margin:50px auto 25px;
+    }
 
     li {
       width: 25px;

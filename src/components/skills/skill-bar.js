@@ -6,7 +6,7 @@ const SkillBar = (props) => {
   
       return ( 
       
-        <div className="column is-5 is-offset-1  offset-lt">
+        <div className="column is-5">
           <h2 className="title">Soft Skills</h2>
           <hr />
           <p>

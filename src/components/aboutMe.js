@@ -50,7 +50,8 @@ class AboutMe extends React.Component {
                     <p>
                       <span>E-Mail</span>
                       <br />
-                      hello@carobehler.de
+                    
+                      <a className="mail-button" href="mailto:hello@carobehler.de">hello@carobehler.de</a>
                     </p>
                   </li>
                   <li>
@@ -79,8 +80,8 @@ class AboutMe extends React.Component {
               </ul>
    
               <p>
-                Bevor ich meine Leidenschaft für die <strong>Website-Entwicklung</strong> entdeckte führten meine Wege
-                mich eingangs zum <strong>Ton</strong> (Frankfurt/
+                Bevor ich meine Leidenschaft für die <strong>Website-Entwicklung</strong> entdeckte führten mich meine Wege
+                eingangs zum <strong>Ton</strong> (Frankfurt/
                 Berlin), dann über <strong>Bild</strong> (Berlin) zum{" "}
                 <strong>technischen Part</strong> von beidem im Bachelorstudium
                 (Düsseldorf) bis ich schließlich meinen Master in
