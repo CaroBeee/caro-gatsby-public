@@ -8,7 +8,6 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-import {Cube} from 'react-preloaders'
 import Header from "./header"
 import NavMobile from "./nav-mobile"
 import NavVert from "./nav-vertical"
