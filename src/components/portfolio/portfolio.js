@@ -128,7 +128,7 @@ class Portfolio extends Component {
                 excerpt="Informationsportal rund um das Thema Vorsorge mit aktuellen Nachrichten, Forum und Rechner"
                 tech={["Typo3", "Sass", "Bootstrap", "Grunt"]}
                 task={["Umsetzung", "Templating", "Weiterentwicklung"]}
-                description="Hier wurden die Module der Website zunächst in statischen Code umgesetzt, um sie dann in das CMS Typo3 übertragen zu lassen."
+                description="Die Module und die verschiedenen Templates der Website wurden zunächst in statischen Code umgesetzt, um sie dann in das CMS Typo3 übertragen zu lassen."
                 link="https://ihre-vorsorge.de"
               />
               </div>
@@ -149,7 +149,7 @@ class Portfolio extends Component {
                 excerpt="Online Magazin der Zeitschrift 'Gesundheit und Gesellschaft'. Das ist das AOK-Forum für Politik, Praxis und Wissenschaft."
                 tech={["Sass", "Bootstrap", "webpack"]}
                 task={["Umsetzung", "Templating", "Styleguide"]}
-                description="Hier wurden die Module der Website zunächst in statischen Code umgesetzt, um sie dann extern in ein CMS übertragen zu lassen."
+                description="Das Templating und die Komponenten der Website wurden in einem Prototypen umgesetzt, um sie dann extern in ein CMS übertragen zu lassen."
                 link="http://mdk-prototyp.vorschau70.wdv.de"
               />
               </div>
@@ -170,7 +170,7 @@ class Portfolio extends Component {
                 excerpt="Quizspiel für interne Schulungen der zukünftigen Berater der Schwäbisch Hall."
                 tech={["Wordpress", "Sass", "Bootstrap", "Grunt"]}
                 task={["Konzeption Technik","Umsetzung", "Theming", "Quiz-Logik"]}
-                description="Auf Basis eines vorgefertigten Quizmoduls wurde für das Beraterspiel entsprechende Anpassungen gemacht."
+                description="Auf Basis eines vorgefertigten Quizmoduls wurde das Beraterspiel im Look der Schwäbisch Hall umgesetzt."
                 link="https://bsh-beraterspiel.vorschau.wdv.de/"
               />
               </div>
@@ -212,7 +212,7 @@ class Portfolio extends Component {
                 excerpt="Deutschlands großes digitales Reisemagazin mit Reiseberichten, -tipps und weiteres."
                 tech={["Wordpress", "Sass", "Bootstrap", "Grunt"]}
                 task={["Umsetzung", "Theming", "Templating"]}
-                description="Die Umsetzung eines Blog-artigen Magazin wurde mit Wordpress realisiert."
+                description="Die Umsetzung eines Blog-artigen Magazin wurde mit Wordpress realisiert und durch ein Shop-Modul und weitere Features erweitert."
                 link="https://www.abenteuer-reisen.de"
               />
               </div>
@@ -233,7 +233,7 @@ class Portfolio extends Component {
                 excerpt="Das Media- und Politikportal der AOK Baden-Württemberg."
                 tech={["OpenText", "Sass", "Bootstrap", "Grunt"]}
                 task={["Umsetzung", "Templating"]}
-                description="Relaunch des vorhandenen Auftritts des Medienportals der AOK Baden-Württembergs."
+                description="Relaunch des vorhandenen Auftritts des Medienportals der AOK Baden-Württembergs im responsiven Design."
                 link=""
               />
             </div>
@@ -340,7 +340,7 @@ class Portfolio extends Component {
                 excerpt="Informationsportal rund um das Thema Vorsorge mit aktuellen Nachrichten, Forum und Rechner"
                 tech={["Typo3", "Sass", "Bootstrap", "Grunt"]}
                 task={["Umsetzung", "Templating", "Weiterentwicklung"]}
-                description="Hier wurden die Module der Website zunächst in statischen Code umgesetzt, um sie dann in das CMS Typo3 übertragen zu lassen."
+                description="Die Module und die verschiedenen Templates der Website wurden zunächst in statischen Code umgesetzt, um sie dann in das CMS Typo3 übertragen zu lassen."
                 link="https://ihre-vorsorge.de"
               />
               </div>
@@ -361,7 +361,7 @@ class Portfolio extends Component {
                 excerpt="Online Magazin der Zeitschrift 'Gesundheit und Gesellschaft'. Das ist das AOK-Forum für Politik, Praxis und Wissenschaft."
                 tech={["Sass", "Bootstrap", "webpack"]}
                 task={["Umsetzung", "Templating", "Styleguide"]}
-                description="Hier wurden die Module der Website zunächst in statischen Code umgesetzt, um sie dann extern in ein CMS übertragen zu lassen."
+                description="Das Templating und die Komponenten der Website wurden in einem Prototypen umgesetzt, um sie dann extern in ein CMS übertragen zu lassen."
                 link="http://mdk-prototyp.vorschau70.wdv.de"
               />
               </div>
@@ -382,7 +382,7 @@ class Portfolio extends Component {
                 excerpt="Quizspiel für interne Schulungen der zukünftigen Berater der Schwäbisch Hall."
                 tech={["Wordpress", "Sass", "Bootstrap", "Grunt"]}
                 task={["Konzeption Technik","Umsetzung", "Theming", "Quiz-Logik"]}
-                description="Auf Basis eines vorgefertigten Quizmoduls wurde für das Beraterspiel entsprechende Anpassungen gemacht."
+                description="Auf Basis eines vorgefertigten Quizmoduls wurde das Beraterspiel im Look der Schwäbisch Hall umgesetzt."
                 link="https://bsh-beraterspiel.vorschau.wdv.de/"
               />
               </div>
@@ -424,7 +424,7 @@ class Portfolio extends Component {
                 excerpt="Deutschlands großes digitales Reisemagazin mit Reiseberichten, -tipps und weiteres."
                 tech={["Wordpress", "Sass", "Bootstrap", "Grunt"]}
                 task={["Umsetzung", "Theming", "Templating"]}
-                description="Die Umsetzung eines Blog-artigen Magazin wurde mit Wordpress realisiert."
+                description="Die Umsetzung eines Blog-artigen Magazin wurde mit Wordpress realisiert und durch ein Shop-Modul und weitere Features erweitert."
                 link="https://www.abenteuer-reisen.de"
               />
               </div>
@@ -445,7 +445,7 @@ class Portfolio extends Component {
                 excerpt="Das Media- und Politikportal der AOK Baden-Württemberg."
                 tech={["OpenText", "Sass", "Bootstrap", "Grunt"]}
                 task={["Umsetzung", "Templating"]}
-                description="Relaunch des vorhandenen Auftritts des Medienportals der AOK Baden-Württembergs."
+                description="Relaunch des vorhandenen Auftritts des Medienportals der AOK Baden-Württembergs im responsiven Design."
                 link=""
               />
               </div>

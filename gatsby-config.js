@@ -85,11 +85,9 @@ module.exports = {
         path: `${__dirname}/src/img`,
       },
     },
-  
+     
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-  
-  
     `gatsby-plugin-sass`,
     `gatsby-plugin-postcss`,
      `gatsby-plugin-minify`,

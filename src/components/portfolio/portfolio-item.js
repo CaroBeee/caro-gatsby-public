@@ -44,9 +44,7 @@ class PortfolioItem extends Component {
       this.props.award &&
       this.props.award.map(function(awards, i) {
         return (
-          <p key={i} className="title">
-            {awards}
-          </p>
+          <><p key={i} className="title">{awards}</p></>
         )
       })
 
@@ -151,7 +149,12 @@ class PortfolioItem extends Component {
                           <p className="title">{this.props.type}</p>
                         </div>
                       </div>
-                      <div className="level-item has-text-centered"></div>
+                      <div className="level-item has-text-centered">
+                      <div>
+                      <p className="heading">Award</p>
+                      <Awards/>
+                      </div>
+                      </div>
                     </nav>
                   </div>
                 </div>

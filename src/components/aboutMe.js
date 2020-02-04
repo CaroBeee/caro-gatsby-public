@@ -80,7 +80,7 @@ class AboutMe extends React.Component {
               </ul>
    
               <p>
-                Bevor ich meine Leidenschaft für die <strong>Website-Entwicklung</strong> entdeckte führten mich meine Wege
+                Bevor ich meine Leidenschaft für die <strong>Website-Entwicklung</strong> entdeckte, führten mich meine Wege
                 eingangs zum <strong>Ton</strong> (Frankfurt/
                 Berlin), dann über <strong>Bild</strong> (Berlin) zum{" "}
                 <strong>technischen Part</strong> von beidem im Bachelorstudium
@@ -201,7 +201,7 @@ class AboutMe extends React.Component {
               <p>
                 Schon früh habe ich gemerkt wie wichtig es ist, dass alle
                 Teammitglieder (Konzepter, Designer, Entwickler) von Anfang an
-                im Projekt gleichermaßen miteingebunden werden müssen. Die Zeit,
+                im Projekt gleichermaßen miteingebunden sein müssen. Die Zeit,
                 dass der Entwickler darauf wartet, bis der Designer das Layout
                 auf den Tisch legt und sagt: „So, jetzt kannst du loslegen.“ ist
                 vorbei. Das Verständnis sowohl für die Ideenentwicklung, der

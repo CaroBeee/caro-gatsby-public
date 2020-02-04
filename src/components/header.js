@@ -1,9 +1,11 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import downloadFile from '../data/CV_CaroBehler_.pdf'
+import downloadFile from '../data/CV_CaroBehler.pdf'
 
 const Header = ({ siteTitle }) => (
+
+  
   
   <header className="header">
   <div className="column  is-offset-1">

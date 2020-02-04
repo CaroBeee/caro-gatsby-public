@@ -8,6 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import {Cube} from 'react-preloaders'
 import Header from "./header"
 import NavMobile from "./nav-mobile"
 import NavVert from "./nav-vertical"
@@ -20,6 +21,7 @@ import Footer from "./footer"
 import ScrollToTop from "./scrollToTop"
 
 
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fas } from '@fortawesome/free-solid-svg-icons'
@@ -28,8 +30,9 @@ import { fab } from '@fortawesome/free-brands-svg-icons'
 library.add(fas, fab)
 
 
-
 const LayoutStart = ({ children }) => {
+
+
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -43,14 +46,10 @@ const LayoutStart = ({ children }) => {
 
   return (
     <>
-
- 
+    
+  
      <NavMobile/>
-    <NavVert/>
-      
-      
-
-        
+    <NavVert/>     
         <main id="main">
         <div className="main-container container">
         <Header siteTitle={data.site.siteMetadata.author}  />
@@ -69,6 +68,8 @@ const LayoutStart = ({ children }) => {
      
     </>
   )
+
+  
 }
 
 LayoutStart.propTypes = {

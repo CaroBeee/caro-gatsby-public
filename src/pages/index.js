@@ -8,8 +8,9 @@ import "../sass/styles.scss"
 
 const IndexPage = () => (
 
-
+  
   <LayoutStart>
+    
     <SEO title="Caro Behler" />
 
   
