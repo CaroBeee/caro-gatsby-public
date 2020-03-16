@@ -74,22 +74,12 @@ class AboutMe extends React.Component {
                 in der Nähe von Frankfurt am Main.
               </p>
               <ul className="border">
-                <li> Konzeption, Entwicklung und Implementierung sowie Weiterentwicklung anspruchsvoller Webanwendungen mit dem Mobile First Ansatz</li>
-                <li>Recherche und Bewertungen neuer Technologie für den Webbereich und deren Einführung in neue Projekte</li>
-                <li> Beratung und Ideenentwicklung hinsichtlich der Qualitätssicherung (Performance) sowie der Optimierung der User-Experience</li>
+                <li> <strong>Konzeption</strong>, <strong>Entwicklung</strong> und <strong>Implementierung</strong> sowie Weiterentwicklung anspruchsvoller Webanwendungen mit dem Mobile First Ansatz</li>
+                <li><strong>Recherche</strong> und <strong>Bewertungen</strong> neuer Technologie für den Webbereich und deren Einführung in neue Projekte</li>
+                <li> <strong>Beratung</strong> und <strong>Ideenentwicklung</strong> hinsichtlich der Qualitätssicherung (Performance) sowie der Optimierung der User-Experience</li>
               </ul>
    
-              <p>
-                Bevor ich meine Leidenschaft für die <strong>Website-Entwicklung</strong> entdeckte, führten mich meine Wege
-                eingangs zum <strong>Ton</strong> (Frankfurt/
-                Berlin), dann über <strong>Bild</strong> (Berlin) zum{" "}
-                <strong>technischen Part</strong> von beidem im Bachelorstudium
-                (Düsseldorf) bis ich schließlich meinen Master in
-                Medieninformatik (auch in Düsseldorf) absolvierte. Seitdem fühle
-                ich mich in meinem Developer-Dasein richtig zu Hause. Sitze ich
-                nicht am Rechner, bin ich im Keller - am Schlagzeug.😊 Aber ganz
-                weit oben steht meine kleine Familie.😍
-              </p>
+             
             </div>
 
             <h3 className="">Was ich anbiete</h3>
@@ -196,7 +186,22 @@ class AboutMe extends React.Component {
         </div>
         <div className="columns">
           <div className="column is-4 is-offset-1">
-         <h3>Für mich das A und O</h3>
+          <h3>Mein Weg</h3>
+          <p>
+                Bevor ich meine Leidenschaft für die <strong>Website-Entwicklung</strong> entdeckte, führten mich meine Wege
+                eingangs zum <strong>Ton</strong> (Frankfurt/
+                Berlin), dann über <strong>Bild</strong> (Berlin) zum{" "}
+                <strong>technischen Part</strong> von beidem im Bachelorstudium
+                (Düsseldorf) bis ich schließlich meinen Master in
+                Medieninformatik (auch in Düsseldorf) absolvierte. Seitdem fühle
+                ich mich in meinem Developer-Dasein richtig zu Hause. Sitze ich
+                nicht am Rechner, bin ich im Keller - am Schlagzeug.😊 Aber ganz
+                weit oben steht meine kleine Familie.😍
+              </p>
+         
+          </div>
+          <div className="column is-5 is-offset-1">
+          <h3>Für mich das A und O</h3>
             <div className="content">
               <p>
                 Schon früh habe ich gemerkt wie wichtig es ist, dass alle
@@ -211,9 +216,9 @@ class AboutMe extends React.Component {
                 im Bilde sein.
               </p>
             </div>
-          </div>
-          <div className="column is-5 is-offset-1">
+          <h3>Mein Ansatz</h3>
             <div className="content">
+           
               <p>
                 Für einen effektiven Aufbau der Gestaltung kann ich den Ansatz des{" "}
                 <a
